@@ -1,6 +1,6 @@
 # 28 Jupyter Notebook Tips, Tricks, and Shortcuts
 
-[https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/]()
+Borrowed from [https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/]()
 
 1. TOC
 
