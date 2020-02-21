@@ -7,7 +7,7 @@ Borrowed from [https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortc
 {:toc}
 
 
-![interface-screenshot](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cinterface-screenshot.png)
+![interface-screenshot](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cinterface-screenshot.png)
 
 *The Jupyter interface.*
 
@@ -23,7 +23,7 @@ As any power user knows, keyboard shortcuts will save you lots of time. Jupyter 
 
 Another way to access keyboard shortcuts, and a handy way to learn them is to use the command palette: `Cmd + Shift + P` (or `Ctrl + Shift + P` on Linux and Windows). This dialog box helps you run any command by name – useful if you don’t know the keyboard shortcut for an action or if what you want to do does not have a keyboard shortcut. The functionality is similar to Spotlight search on a Mac, and once you start using it you’ll wonder how you lived without it!
 
-![command-palette](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Ccommand-palette.gif)
+![command-palette](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Ccommand-palette.gif)
 
 
 
@@ -46,7 +46,7 @@ Some of my favorites:
   - Once cells are selected, you can then delete / copy / cut / paste / run them as a batch. This is helpful when you need to move parts of a notebook.
   - You can also use `Shift + M` to merge multiple cells.
 
-![multi-merge](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cmulti-merge.gif)
+![multi-merge](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cmulti-merge.gif)
 
 *Merging multiple cells.*
 
@@ -117,7 +117,7 @@ There are many options for generating plots in your notebooks.
 - [plot.ly](https://plot.ly/) can generate nice plots – this used to be a paid service only but was recently open sourced.
 - [Altair](https://github.com/altair-viz/altair) is a relatively new declarative visualization library for Python. It’s easy to use and makes great looking plots, however the ability to customize those plots is not nearly as powerful as in Matplotlib.
 
-![bokeh](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cbokeh.png)
+![bokeh](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cbokeh.png)
 
 *The Jupyter interface.*
 
@@ -163,7 +163,7 @@ Note that using `%run` is not the same as importing a python module.
 %run ./two-histograms.ipynb
 ```
 
-![two-hists](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Ctwo-hists.png)
+![two-hists](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Ctwo-hists.png)
 
 ### 8. IPython Magic – %load: Insert the code from an external script
 
@@ -336,9 +336,9 @@ plt.plot(x,y)
 plt.show();
 ```
 
-![hires-1](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chires-1.png)
+![hires-1](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chires-1.png)
 
-![hires-2](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chires-2.png)
+![hires-2](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chires-2.png)
 
 ## 16. Suppress the output of a final function.
 
@@ -355,9 +355,9 @@ plt.hist(x)
 # By adding a semicolon at the end, the output is suppressed.plt.hist(x);
 ```
 
-![hist](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chist.png)
+![hist](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chist.png)
 
-![hist](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chist-1582269202752.png)
+![hist](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chist-1582269202752.png)
 
 ## 17. Executing Shell Commands
 
@@ -390,7 +390,7 @@ $P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$
 
 Becomes this:
 
-P(A∣B)=P(B∣A)P(A)P(B)
+P(A|B)=P(B|A)P(A)P(B)
 
 Markdown is an important part of notebooks, so don’t forget to use its expressiveness!
 
@@ -469,7 +469,7 @@ df = pd.DataFrame({
 ggplot(data = df) + geom_point(aes(x = X, y= Y, color = Letter, size = Z))
 ```
 
-![ggplot](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cggplot.png)
+![ggplot](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cggplot.png)
 
 *Example courtesy Revolutions Blog*
 
@@ -514,7 +514,7 @@ There are also different jitter systems which can speed up your python code. Mor
 
 Jupyter supports mutiple cursors, similar to Sublime Text. Simply click and drag your mouse while holding down `Alt`.
 
-![multiline](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cmultiline.gif)
+![multiline](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cmultiline.gif)
 
 *Multicursor support.*
 
@@ -531,7 +531,7 @@ The following commands will install the extensions, as well as a menu based conf
 !jupyter nbextensions_configurator enable --user
 ```
 
-![nbextensions](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cnbextensions.png)
+![nbextensions](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cnbextensions.png)
 
 *The nbextension configurator.*
 
@@ -572,15 +572,15 @@ for name in names[:5]:
     display(Image('../images/ml_demonstrations/' + name, width=100))
 ```
 
-![img1](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg1.png)
+![img1](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg1.png)
 
-![img2](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg2.png)
+![img2](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg2.png)
 
-![img3](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg3.png)
+![img3](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg3.png)
 
-![img4](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg4.png)
+![img4](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg4.png)
 
-![img5](../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg5.png)
+![img5](../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg5.png)
 
 We can create the same list with a bash command, because magics and bash calls return python variables:
 
@@ -633,3 +633,4 @@ The easiest way to share your notebook is simply using the notebook file (.ipynb
 - Use the `File > Download as > PDF` menu to save your notebook as a PDF. If you’re going this route, I highly recommend reading Julius Schulz’s excellent article [Making publication ready Python notebooks](http://blog.juliusschulz.de/blog/ultimate-ipython-notebook).
 
 - [Create a blog using Pelican from your Jupyter notebooks](https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/).
+
