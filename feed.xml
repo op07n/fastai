@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://op07n.github.io/fastpages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://op07n.github.io/fastpages/" rel="alternate" type="text/html" /><updated>2020-02-21T01:51:48-06:00</updated><id>https://op07n.github.io/fastpages/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">28 Jupyter Notebook Tips, Tricks, and Shortcuts</title><link href="https://op07n.github.io/fastpages/2020/02/21/Jupyter-Notebook-Tips,-Tricks,-and-Shortcuts.html" rel="alternate" type="text/html" title="28 Jupyter Notebook Tips, Tricks, and Shortcuts" /><published>2020-02-21T00:00:00-06:00</published><updated>2020-02-21T00:00:00-06:00</updated><id>https://op07n.github.io/fastpages/2020/02/21/Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/02/21/Jupyter-Notebook-Tips,-Tricks,-and-Shortcuts.html">&lt;p&gt;Borrowed from &lt;a href=&quot;&quot;&gt;https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://op07n.github.io/fastpages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://op07n.github.io/fastpages/" rel="alternate" type="text/html" /><updated>2020-02-21T02:13:03-06:00</updated><id>https://op07n.github.io/fastpages/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">28 Jupyter Notebook Tips, Tricks, and Shortcuts</title><link href="https://op07n.github.io/fastpages/2020/02/21/Jupyter-Notebook-Tips,-Tricks,-and-Shortcuts.html" rel="alternate" type="text/html" title="28 Jupyter Notebook Tips, Tricks, and Shortcuts" /><published>2020-02-21T00:00:00-06:00</published><updated>2020-02-21T00:00:00-06:00</updated><id>https://op07n.github.io/fastpages/2020/02/21/Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/02/21/Jupyter-Notebook-Tips,-Tricks,-and-Shortcuts.html">&lt;p&gt;Borrowed from &lt;a href=&quot;&quot;&gt;https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;TOC&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cinterface-screenshot.png&quot; alt=&quot;interface-screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cinterface-screenshot.png&quot; alt=&quot;interface-screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The Jupyter interface.&lt;/em&gt;&lt;/p&gt;
 
@@ -20,7 +20,7 @@
 
 &lt;p&gt;Another way to access keyboard shortcuts, and a handy way to learn them is to use the command palette: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cmd + Shift + P&lt;/code&gt; (or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Shift + P&lt;/code&gt; on Linux and Windows). This dialog box helps you run any command by name – useful if you don’t know the keyboard shortcut for an action or if what you want to do does not have a keyboard shortcut. The functionality is similar to Spotlight search on a Mac, and once you start using it you’ll wonder how you lived without it!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Ccommand-palette.gif&quot; alt=&quot;command-palette&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Ccommand-palette.gif&quot; alt=&quot;command-palette&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The command palette.&lt;/em&gt;&lt;/p&gt;
 
@@ -49,7 +49,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cmulti-merge.gif&quot; alt=&quot;multi-merge&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cmulti-merge.gif&quot; alt=&quot;multi-merge&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Merging multiple cells.&lt;/em&gt;&lt;/p&gt;
 
@@ -213,7 +213,7 @@
   &lt;li&gt;&lt;a href=&quot;https://github.com/altair-viz/altair&quot;&gt;Altair&lt;/a&gt; is a relatively new declarative visualization library for Python. It’s easy to use and makes great looking plots, however the ability to customize those plots is not nearly as powerful as in Matplotlib.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cbokeh.png&quot; alt=&quot;bokeh&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cbokeh.png&quot; alt=&quot;bokeh&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The Jupyter interface.&lt;/em&gt;&lt;/p&gt;
 
@@ -256,7 +256,7 @@
 &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;./&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;two&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;histograms&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ipynb&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Ctwo-hists.png&quot; alt=&quot;two-hists&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Ctwo-hists.png&quot; alt=&quot;two-hists&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;8-ipython-magic--load-insert-the-code-from-an-external-script&quot;&gt;8. IPython Magic – %load: Insert the code from an external script&lt;/h3&gt;
 
@@ -419,9 +419,9 @@
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chires-1.png&quot; alt=&quot;hires-1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chires-1.png&quot; alt=&quot;hires-1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chires-2.png&quot; alt=&quot;hires-2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chires-2.png&quot; alt=&quot;hires-2&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;16-suppress-the-output-of-a-final-function&quot;&gt;16. Suppress the output of a final function.&lt;/h2&gt;
 
@@ -437,9 +437,9 @@
 &lt;span class=&quot;c1&quot;&gt;# By adding a semicolon at the end, the output is suppressed.plt.hist(x);
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chist.png&quot; alt=&quot;hist&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chist.png&quot; alt=&quot;hist&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chist-1582269202752.png&quot; alt=&quot;hist&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Chist-1582269202752.png&quot; alt=&quot;hist&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;17-executing-shell-commands&quot;&gt;17. Executing Shell Commands&lt;/h2&gt;
 
@@ -469,7 +469,15 @@
 
 &lt;p&gt;Becomes this:&lt;/p&gt;
 
-&lt;p&gt;P(A∣B)=P(B∣A)P(A)P(B)&lt;/p&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;P(A&lt;/td&gt;
+      &lt;td&gt;B)=P(B&lt;/td&gt;
+      &lt;td&gt;A)P(A)P(B)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;Markdown is an important part of notebooks, so don’t forget to use its expressiveness!&lt;/p&gt;
 
@@ -545,7 +553,7 @@
 &lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;geom_point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Letter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cggplot.png&quot; alt=&quot;ggplot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cggplot.png&quot; alt=&quot;ggplot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Example courtesy Revolutions Blog&lt;/em&gt;&lt;/p&gt;
 
@@ -588,7 +596,7 @@ In principle, you can compile function in the dynamic library and write python w
 
 &lt;p&gt;Jupyter supports mutiple cursors, similar to Sublime Text. Simply click and drag your mouse while holding down &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Alt&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cmultiline.gif&quot; alt=&quot;multiline&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cmultiline.gif&quot; alt=&quot;multiline&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Multicursor support.&lt;/em&gt;&lt;/p&gt;
 
@@ -604,7 +612,7 @@ In principle, you can compile function in the dynamic library and write python w
 &lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jupyter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nbextensions_configurator&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cnbextensions.png&quot; alt=&quot;nbextensions&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cnbextensions.png&quot; alt=&quot;nbextensions&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The nbextension configurator.&lt;/em&gt;&lt;/p&gt;
 
@@ -641,15 +649,15 @@ In principle, you can compile function in the dynamic library and write python w
     &lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'../images/ml_demonstrations/'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg1.png&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg1.png&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg2.png&quot; alt=&quot;img2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg2.png&quot; alt=&quot;img2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg3.png&quot; alt=&quot;img3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg3.png&quot; alt=&quot;img3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg4.png&quot; alt=&quot;img4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg4.png&quot; alt=&quot;img4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg5.png&quot; alt=&quot;img5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../images/2020-02-21-Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts%5Cimg5.png&quot; alt=&quot;img5&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We can create the same list with a bash command, because magics and bash calls return python variables:&lt;/p&gt;
 
