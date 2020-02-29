@@ -1,0 +1,1623 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/fastpages/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Title | fastpages</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Title" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<link rel="canonical" href="https://op07n.github.io/fastpages/2020/02/29/python-basics.html" />
+<meta property="og:url" content="https://op07n.github.io/fastpages/2020/02/29/python-basics.html" />
+<meta property="og:site_name" content="fastpages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-29T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"BlogPosting","url":"https://op07n.github.io/fastpages/2020/02/29/python-basics.html","headline":"Title","dateModified":"2020-02-29T00:00:00-06:00","datePublished":"2020-02-29T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://op07n.github.io/fastpages/2020/02/29/python-basics.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/fastpages/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://op07n.github.io/fastpages/feed.xml" title="fastpages" />
+
+  <script>
+  function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+  }
+  window.onload = wrap_img;
+  </script>
+
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/fastpages/">fastpages</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/fastpages/about/">About Me</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Title</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2020-02-29T00:00:00-06:00" itemprop="datePublished">
+        Feb 29, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    
+<div class="pb-5 d-flex flex-wrap flex-justify-end">
+     <div class="px-2">
+<a href="https://github.com/op07n/fastpages/tree/master/_notebooks/2020-02-29-python-basics.ipynb" role="button">
+    <img class="notebook-badge-image" src="https://img.shields.io/static/v1?label=&message=View%20On%20GitHub&color=586069&logo=github&labelColor=2f363d">
+</a>
+</div><div class="px-2">
+    <a href="https://colab.research.google.com/github/op07n/fastpages/blob/master/_notebooks/2020-02-29-python-basics.ipynb">
+        <img class="notebook-badge-image" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+    </a>
+</div>
+</div>
+
+
+<!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-02-29-python-basics.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Tutorial---Python-Basics">Tutorial - Python Basics<a class="anchor-link" href="#Tutorial---Python-Basics">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><ol>
+<li><a href="#comments">Comments</a></li>
+<li><a href="#numbers">Numbers</a></li>
+<li><a href="#strings">Strings</a></li>
+<li><a href="#lists">Lists</a></li>
+<li><a href="#flow_control">Flow Control</a><ol>
+<li><a href="#if">If Statement</a></li>
+<li><a href="#for">For Loops</a></li>
+<li><a href="#while">While Statement</a></li>
+</ol>
+</li>
+<li><a href="#dictionary">Dictionary</a></li>
+<li><a href="#functions">Functions</a><ol>
+<li><a href="#vl_arguments">Variable Length Arguments</a></li>
+</ol>
+</li>
+<li><a href="#classes">Classes</a><ol>
+<li><a href="inheritance">Classes Inheritance</a></li>
+</ol>
+</li>
+<li><a href="#help">Help Commands</a></li>
+<li><a href="#exercise">Exercise</a></li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="comments"></a></p>
+<h2 id="Comments">Comments<a class="anchor-link" href="#Comments">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This is a single line comment</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;This is a </span>
+<span class="sd">multline</span>
+<span class="sd">comment.&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;This is also </span>
+<span class="sd">a multiline </span>
+<span class="sd">comment.&quot;&quot;&quot;</span><span class="p">;</span> <span class="c1"># the semi-collon supressed the output in Jupyter Notebook</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#https://www.python.org/dev/peps/pep-0257/</span>
+<span class="sd">&#39;&#39;&#39;A docstring is a string literal that </span>
+<span class="sd">occurs as the first statement in a module, </span>
+<span class="sd">function, class, or method definition.&#39;&#39;&#39;</span>
+<span class="c1"># It&#39;s also used for Docstrings</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Numbers-">Numbers <a id="numbers" /><a class="anchor-link" href="#Numbers-">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">5</span><span class="o">/</span><span class="mi">2</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Python 2 vs Python 3</span>
+<span class="c1"># https://en.wikibooks.org/wiki/Python_Programming/Operators#Division_and_Type_Conversion</span>
+<span class="mi">5</span><span class="o">//</span><span class="mi">2</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">5</span> <span class="o">/</span> <span class="mf">2.0</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">2</span><span class="o">**</span><span class="mi">2</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#  ( = ) assigns a value to a variable</span>
+<span class="n">a</span><span class="o">=</span><span class="mi">2</span>
+<span class="n">b</span><span class="o">=</span><span class="mf">3.5</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">3</span><span class="o">*</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="n">x</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="strings"></a></p>
+<h2 id="Strings">Strings<a class="anchor-link" href="#Strings">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="s2">&quot;this is a string&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="s2">&quot; this is </span><span class="se">\&quot;</span><span class="s2">also</span><span class="se">\&quot;</span><span class="s2"> a string&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="s2">&quot;a + &quot;</span><span class="o">+</span> <span class="s2">&quot;b &quot;</span> <span class="o">+</span> <span class="s2">&quot; = c&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">word</span><span class="o">=</span><span class="s2">&quot;Hello&quot;</span>
+<span class="n">word</span> <span class="o">+</span> <span class="s2">&quot; = &quot;</span> <span class="o">+</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span> <span class="n">word</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span> <span class="n">word</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="lists"></a></p>
+<h2 id="Lists">Lists<a class="anchor-link" href="#Lists">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">guitars</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;fender&quot;</span><span class="p">,</span><span class="s2">&quot;gibson&quot;</span><span class="p">,</span> <span class="s2">&quot;prs&quot;</span><span class="p">,</span> <span class="s2">&quot;yamaha&quot;</span><span class="p">,</span> <span class="s2">&quot;ibanez&quot;</span><span class="p">]</span>
+<span class="n">guitars</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">guitars</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">guitars</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">guitars</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;1&quot;</span><span class="p">)</span>
+<span class="n">guitars</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="n">guitars</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">guitars</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span><span class="n">guitars</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There was an error: &quot;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">guitars</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="s1">&#39; &#39;</span> <span class="o">+</span><span class="n">guitars</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numbers</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<span class="n">strings</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;1&#39;</span><span class="p">,</span><span class="s1">&#39;2&#39;</span><span class="p">,</span><span class="s1">&#39;3&#39;</span><span class="p">]</span>
+<span class="n">numbers_and_strings</span><span class="o">=</span><span class="p">[</span><span class="n">numbers</span><span class="p">,</span><span class="n">strings</span><span class="p">]</span>
+<span class="n">numbers_and_strings</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numbers_and_strings</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">strings</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="flow_control"></a></p>
+<h2 id="Flow-Control">Flow Control<a class="anchor-link" href="#Flow-Control">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="if"></a></p>
+<h3 id="If-Statement">If Statement<a class="anchor-link" href="#If-Statement">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">band</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What&#39;s your favorite band? &quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">band</span> <span class="o">==</span> <span class="s1">&#39;Iron Maiden&#39;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;That rocks!!!&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">band</span> <span class="o">==</span> <span class="s1">&#39;BackStreet Boys&#39;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hum... okey.&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your favorite band is </span><span class="si">%s</span><span class="s2">!&quot;</span> <span class="o">%</span><span class="k">band</span>)
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="for"></a></p>
+<h3 id="For-Loops">For Loops<a class="anchor-link" href="#For-Loops">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">13</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">guitar</span> <span class="ow">in</span> <span class="n">guitars</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">guitar</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">guitar</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">guitar</span> <span class="ow">in</span> <span class="n">guitars</span><span class="p">[:]:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;We are now at:&#39;</span><span class="p">,</span><span class="n">guitar</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">guitar</span><span class="p">))</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">guitar</span><span class="p">)</span><span class="o">&lt;</span><span class="mi">4</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;We are inserting </span><span class="si">%s</span><span class="s2"> at the beggining.&quot;</span><span class="o">%</span> <span class="n">guitar</span><span class="p">)</span>
+            <span class="n">guitars</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">guitar</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span> 
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There was an error: </span><span class="si">%s</span><span class="s2"> but we will fix it and move on.&quot;</span> <span class="o">%</span> <span class="n">e</span><span class="p">)</span>
+        <span class="n">guitars</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">guitar</span><span class="p">)</span>
+        
+<span class="nb">print</span><span class="p">(</span><span class="n">guitars</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">guitars</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">guitars</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="while"></a></p>
+<h3 id="While-Statement">While Statement<a class="anchor-link" href="#While-Statement">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">count</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">count</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The count is:&#39;</span><span class="p">,</span> <span class="n">count</span><span class="p">)</span>
+    <span class="n">count</span> <span class="o">-=</span><span class="mi">1</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Finito Maestro!&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="dictionary"></a></p>
+<h2 id="Dictionary">Dictionary<a class="anchor-link" href="#Dictionary">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">notes</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="p">:</span> <span class="s1">&#39;La&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">:</span><span class="s1">&#39;La&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;b&#39;</span><span class="p">:</span> <span class="s1">&#39;Si&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">:</span><span class="s1">&#39;Si&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;c&#39;</span><span class="p">:</span> <span class="s1">&#39;Do&#39;</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">:</span><span class="s1">&#39;Do&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;d&#39;</span><span class="p">:</span> <span class="s1">&#39;Re&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">:</span><span class="s1">&#39;Re&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;e&#39;</span><span class="p">:</span> <span class="s1">&#39;Mi&#39;</span><span class="p">,</span> <span class="s1">&#39;E&#39;</span><span class="p">:</span><span class="s1">&#39;Mi&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;f&#39;</span><span class="p">:</span> <span class="s1">&#39;Fa&#39;</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">:</span><span class="s1">&#39;Fa&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;g&#39;</span><span class="p">:</span> <span class="s1">&#39;Sol&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">:</span><span class="s1">&#39;Sol&#39;</span><span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The name of the note A is </span><span class="si">%s</span><span class="s1">.&#39;</span> <span class="o">%</span> <span class="n">notes</span><span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">])</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The name of the note X is </span><span class="si">%s</span><span class="s1">.&#39;</span> <span class="o">%</span> <span class="n">notes</span><span class="p">[</span><span class="s1">&#39;X&#39;</span><span class="p">])</span>
+<span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span> 
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There was an error: </span><span class="si">%s</span><span class="s2"> is not a note.&quot;</span> <span class="o">%</span> <span class="n">e</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">notes</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">notes</span><span class="p">[</span><span class="s1">&#39;h&#39;</span><span class="p">]</span><span class="o">=</span><span class="s1">&#39;Si&#39;</span>
+<span class="n">notes</span><span class="p">[</span><span class="s1">&#39;H&#39;</span><span class="p">]</span><span class="o">=</span><span class="s1">&#39;Si&#39;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The name of the note H is </span><span class="si">%s</span><span class="s1">.&#39;</span> <span class="o">%</span> <span class="n">notes</span><span class="p">[</span><span class="s1">&#39;H&#39;</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">notes</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="functions"></a></p>
+<h2 id="Functions">Functions<a class="anchor-link" href="#Functions">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">note_names</span><span class="p">(</span><span class="n">note</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;A function that takes a note as an argument and returns its name.</span>
+<span class="sd">    </span>
+<span class="sd">       Example: c - Do, d - Re, e - Mi, and so on</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">notes</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="p">:</span> <span class="s1">&#39;La&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">:</span><span class="s1">&#39;La&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;b&#39;</span><span class="p">:</span> <span class="s1">&#39;Si&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">:</span><span class="s1">&#39;Si&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;c&#39;</span><span class="p">:</span> <span class="s1">&#39;Do&#39;</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">:</span><span class="s1">&#39;Do&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;d&#39;</span><span class="p">:</span> <span class="s1">&#39;Re&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">:</span><span class="s1">&#39;Re&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;e&#39;</span><span class="p">:</span> <span class="s1">&#39;Mi&#39;</span><span class="p">,</span> <span class="s1">&#39;E&#39;</span><span class="p">:</span><span class="s1">&#39;Mi&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;f&#39;</span><span class="p">:</span> <span class="s1">&#39;Fa&#39;</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">:</span><span class="s1">&#39;Fa&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;g&#39;</span><span class="p">:</span> <span class="s1">&#39;Sol&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">:</span><span class="s1">&#39;Sol&#39;</span><span class="p">}</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">notes</span><span class="p">[</span><span class="n">note</span><span class="p">]</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> is not a note.&#39;</span><span class="o">%</span><span class="k">note</span>)
+        <span class="k">return</span> <span class="kc">None</span>
+
+<span class="n">note_name</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter a note (a,b,c,d,e,f,g): &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The note name of </span><span class="se">\&#39;</span><span class="si">%s</span><span class="se">\&#39;</span><span class="s2"> is  </span><span class="si">%s</span><span class="s2">.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">note_name</span><span class="p">,</span> <span class="n">note_names</span><span class="p">(</span><span class="n">note_name</span><span class="p">)))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="vl_arguments"></a></p>
+<h3 id="Variable-Length-Arguments">Variable Length Arguments<a class="anchor-link" href="#Variable-Length-Arguments">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">myTestFunction</span><span class="p">(</span><span class="n">arg</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;arg=&#39;</span><span class="p">,</span><span class="n">arg</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;args=&#39;</span><span class="p">,</span><span class="n">args</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;kwargs=&#39;</span><span class="p">,</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">arg</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">myTestFunction</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span> <span class="n">nine</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span><span class="n">ten</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">eleven</span><span class="o">=</span><span class="mi">11</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">myTestFunction</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="classes"></a></p>
+<h2 id="Classes">Classes<a class="anchor-link" href="#Classes">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">MyGuitarClass</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;A Guitar Class. Guitars have the</span>
+<span class="sd">    following properties:</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">    name: A string representing the guitar&#39;s name.</span>
+<span class="sd">    price: A float representing the guitar&#39;s price.</span>
+<span class="sd">    numer_of_strings: An int representing the guitar&#39;s number of strings.</span>
+<span class="sd">        </span>
+<span class="sd">    Methods:</span>
+<span class="sd">    getName: A function that returns the name of a guitar.</span>
+<span class="sd">    getPrice: A function that returns the price of a guitar.</span>
+<span class="sd">    setPrice: A function that sets the price of a guitar.</span>
+<span class="sd">    getNumberOfStrings: A function that returns de number of strings of a guitar.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="n">number_of_strings</span><span class="o">=</span><span class="mi">6</span> <span class="c1">#The standard number of strings of a guitar. Protected</span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">price</span><span class="o">=</span><span class="mf">0.0</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns a Guitar object whose name is *name* and price is *price*.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">price</span> <span class="o">=</span> <span class="n">price</span>
+        
+    <span class="k">def</span> <span class="nf">getName</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the name of a guitar.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span>
+
+    <span class="k">def</span> <span class="nf">getPrice</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the price of a guitar.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">price</span>
+    
+    <span class="k">def</span> <span class="nf">getNumberOfStrings</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the number of strings of a guitar.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">number_of_strings</span>
+    
+    <span class="k">def</span> <span class="nf">setPrice</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">price</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Sets the price of a guitar.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">price</span> <span class="o">=</span> <span class="n">price</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The price of this </span><span class="si">%s</span><span class="s1"> was set to </span><span class="si">%6.2f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">price</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;This </span><span class="si">%s</span><span class="s2"> guitar costs </span><span class="si">%8.2f</span><span class="s2"> € and it has </span><span class="si">%d</span><span class="s2"> strings.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">price</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">number_of_strings</span><span class="p">)</span>    
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fender</span><span class="o">=</span><span class="n">MyGuitarClass</span><span class="p">(</span><span class="s1">&#39;Fender&#39;</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">fender</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This </span><span class="si">%s</span><span class="s1"> guitar costs </span><span class="si">%6.2f</span><span class="s1"> €&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">fender</span><span class="o">.</span><span class="n">getName</span><span class="p">(),</span> <span class="n">fender</span><span class="o">.</span><span class="n">getPrice</span><span class="p">()))</span>
+<span class="n">gibson</span><span class="o">=</span><span class="n">MyGuitarClass</span><span class="p">(</span><span class="s1">&#39;Gibson Les Paul&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gibson</span><span class="p">)</span>
+<span class="n">gibson</span><span class="o">.</span><span class="n">setPrice</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gibson</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This </span><span class="si">%s</span><span class="s1"> guitar costs </span><span class="si">%6.2f</span><span class="s1"> € and it has </span><span class="si">%d</span><span class="s1"> strings.&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">gibson</span><span class="o">.</span><span class="n">getName</span><span class="p">(),</span> <span class="n">gibson</span><span class="o">.</span><span class="n">getPrice</span><span class="p">(),</span> <span class="n">gibson</span><span class="o">.</span><span class="n">getNumberOfStrings</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This </span><span class="si">%s</span><span class="s1"> guitar costs </span><span class="si">%6.2f</span><span class="s1"> € and it has </span><span class="si">%d</span><span class="s1"> strings.&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">fender</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">fender</span><span class="o">.</span><span class="n">price</span><span class="p">,</span> <span class="n">fender</span><span class="o">.</span><span class="n">number_of_strings</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="inheritance"></a></p>
+<h3 id="Classes-Inheritance">Classes Inheritance<a class="anchor-link" href="#Classes-Inheritance">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">MyBassClass</span><span class="p">(</span><span class="n">MyGuitarClass</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A Bass Class Inherited from the Guitar Class. Bassess have the</span>
+<span class="sd">    following properties:</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">    name: A string representing the bass&#39;s name.</span>
+<span class="sd">    price: A float representing the bass&#39;s price.</span>
+<span class="sd">    numer_of_strings: An int representing the bass&#39;s number of strings.</span>
+<span class="sd">        </span>
+<span class="sd">    Methods:</span>
+<span class="sd">    getName: A function that returns the name of a bass.</span>
+<span class="sd">    getPrice: A function that returns the price of a bass.</span>
+<span class="sd">    setPrice: A function that sets the price of a bass.</span>
+<span class="sd">    getNumberOfStrings: A function that returns de number of strings of a bass.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#number_of_strings=4 #The standard number of strings of a bass.</span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">price</span><span class="o">=</span><span class="mf">0.0</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns a Bass object whose name is *name* and price is *price*.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__number_of_strings</span><span class="o">=</span><span class="mi">4</span> <span class="c1">#The standard number of strings of a bass.</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">MyBassClass</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">price</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="nf">setNumberOfStrings</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number_of_strings</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Sets the price of a guitar.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__number_of_strings</span> <span class="o">=</span> <span class="n">number_of_strings</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The number of strings of this </span><span class="si">%s</span><span class="s1"> bass was set to </span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__number_of_strings</span><span class="p">))</span>
+    
+    <span class="k">def</span> <span class="nf">getNumberOfStrings</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the number of strings of a guitar.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__number_of_strings</span>
+    
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;This </span><span class="si">%s</span><span class="s2"> bass costs </span><span class="si">%8.2f</span><span class="s2"> € and it has </span><span class="si">%d</span><span class="s2"> strings.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">price</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__number_of_strings</span><span class="p">)</span> 
+            
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">yamaha</span><span class="o">=</span><span class="n">MyBassClass</span><span class="p">(</span><span class="s1">&#39;yamaha&#39;</span><span class="p">,</span> <span class="mi">120</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">yamaha</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This </span><span class="si">%s</span><span class="s1"> bass costs </span><span class="si">%6.2f</span><span class="s1"> € and it has </span><span class="si">%d</span><span class="s1"> strings.&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">yamaha</span><span class="o">.</span><span class="n">getName</span><span class="p">(),</span> <span class="n">yamaha</span><span class="o">.</span><span class="n">getPrice</span><span class="p">(),</span> <span class="n">yamaha</span><span class="o">.</span><span class="n">getNumberOfStrings</span><span class="p">()))</span>
+<span class="n">yamaha</span><span class="o">.</span><span class="n">setPrice</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="n">yamaha</span><span class="o">.</span><span class="n">setNumberOfStrings</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">yamaha</span><span class="p">)</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This </span><span class="si">%s</span><span class="s1"> bass costs </span><span class="si">%6.2f</span><span class="s1"> € and it has </span><span class="si">%d</span><span class="s1"> strings.&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">yamaha</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">yamaha</span><span class="o">.</span><span class="n">price</span><span class="p">,</span> <span class="n">yamaha</span><span class="o">.</span><span class="n">__number_of_strings</span><span class="p">))</span>
+<span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span> 
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There was an error: </span><span class="si">%s</span><span class="s2">. So let&#39;s fix it.&quot;</span> <span class="o">%</span> <span class="n">e</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This </span><span class="si">%s</span><span class="s1"> bass costs </span><span class="si">%6.2f</span><span class="s1"> € and it has </span><span class="si">%d</span><span class="s1"> strings.&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">yamaha</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">yamaha</span><span class="o">.</span><span class="n">price</span><span class="p">,</span> <span class="n">yamaha</span><span class="o">.</span><span class="n">getNumberOfStrings</span><span class="p">()))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="help"></a></p>
+<h2 id="Help-Commands">Help Commands<a class="anchor-link" href="#Help-Commands">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>abs<span class="o">?</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="nb">abs</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">help</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This function returns the attributes of the object or module:</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="nb">dir</span><span class="p">(</span><span class="nb">abs</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">abs</span><span class="o">.</span><span class="vm">__doc__</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">note_names</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">MyGuitarClass</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">MyGuitarClass</span><span class="o">.</span><span class="n">getName</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>note_names<span class="o">?</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>MyGuitarClass<span class="o">?</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="exercise"></a></p>
+<h2 id="Exercise">Exercise<a class="anchor-link" href="#Exercise">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Exercise 1.5 from Fundamentals of Music Processing*, page 36.</p>
+<p>*Müller, Meinard. Fundamentals of music processing : audio, analysis, algorithms, applications. Switzerland: Springer, 2015.
+<a href="https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP">https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP</a></p>
+<p>"Exercise 1.5. Compute the center frequencies for all notes of the Cmajor scale C4, D4, E4, F4, G4, A4, B4, C5<br />
+and for all notes of the C-minor scale C4, D4, E$\flat$4, F4, G4, A4, B4, C5."</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Step-1:">Step 1:<a class="anchor-link" href="#Step-1:">&#182;</a></h3><p>Create a function that converts a note to its midi number.</p>
+<p>Hints:</p>
+<ul>
+<li>The function can take as arguments a string with the note symbol (e.g. 'A') and an integer as the note octave. <br /> Some useful MIDI Music Theory can be found at:[Wikipedia]
+(<a href="https://en.wikipedia.org/wiki/Scientific_pitch_notation#Table_of_note_frequencies">https://en.wikipedia.org/wiki/Scientific_pitch_notation#Table_of_note_frequencies</a>)</li>
+<li>You can use the following steps to convert a music note symbol to its midi number:<ul>
+<li>You can create a dictionary assigning the number 0 to C, 1 to C#, 2 to D, 3 to D# and so on until you assign B to 11.</li>
+<li>You can use the following formula to compute the MIDI number using your dictionary entries:<br />
+<br />
+$$\text{MIDI_number}=\text{value assigned to dictionary note (e.g dictionary['A'])}+(\text{octave}+1)\cdot12$$
+<br /> For example, the value 9 must be assigned to the note symbol 'A', if you want to know the MIDI number of the note A3, you have<br />
+<br />$$\text{MIDI_Number_A3}=9+(3+1)*12=9+4*12=9+48=57$$.<br /></li>
+<li>The following table shows all the 128 possible MIDI numbers. <br /><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th>Notes</th>
+<th>C</th>
+<th>C#</th>
+<th>D</th>
+<th>D#</th>
+<th>E</th>
+<th>F</th>
+<th>F#</th>
+<th>G</th>
+<th>G#</th>
+<th>A</th>
+<th>A#</th>
+<th>B</th>
+</tr>
+<tr>
+<th>Octaves</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>-1</th>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+</tr>
+<tr>
+<th>0</th>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+</tr>
+<tr>
+<th>1</th>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+<td>29</td>
+<td>30</td>
+<td>31</td>
+<td>32</td>
+<td>33</td>
+<td>34</td>
+<td>35</td>
+</tr>
+<tr>
+<th>2</th>
+<td>36</td>
+<td>37</td>
+<td>38</td>
+<td>39</td>
+<td>40</td>
+<td>41</td>
+<td>42</td>
+<td>43</td>
+<td>44</td>
+<td>45</td>
+<td>46</td>
+<td>47</td>
+</tr>
+<tr>
+<th>3</th>
+<td>48</td>
+<td>49</td>
+<td>50</td>
+<td>51</td>
+<td>52</td>
+<td>53</td>
+<td>54</td>
+<td>55</td>
+<td>56</td>
+<td>57</td>
+<td>58</td>
+<td>59</td>
+</tr>
+<tr>
+<th>4</th>
+<td>60</td>
+<td>61</td>
+<td>62</td>
+<td>63</td>
+<td>64</td>
+<td>65</td>
+<td>66</td>
+<td>67</td>
+<td>68</td>
+<td>69</td>
+<td>70</td>
+<td>71</td>
+</tr>
+<tr>
+<th>5</th>
+<td>72</td>
+<td>73</td>
+<td>74</td>
+<td>75</td>
+<td>76</td>
+<td>77</td>
+<td>78</td>
+<td>79</td>
+<td>80</td>
+<td>81</td>
+<td>82</td>
+<td>83</td>
+</tr>
+<tr>
+<th>6</th>
+<td>84</td>
+<td>85</td>
+<td>86</td>
+<td>87</td>
+<td>88</td>
+<td>89</td>
+<td>90</td>
+<td>91</td>
+<td>92</td>
+<td>93</td>
+<td>94</td>
+<td>95</td>
+</tr>
+<tr>
+<th>7</th>
+<td>96</td>
+<td>97</td>
+<td>98</td>
+<td>99</td>
+<td>100</td>
+<td>101</td>
+<td>102</td>
+<td>103</td>
+<td>104</td>
+<td>105</td>
+<td>106</td>
+<td>107</td>
+</tr>
+<tr>
+<th>8</th>
+<td>108</td>
+<td>109</td>
+<td>110</td>
+<td>111</td>
+<td>112</td>
+<td>113</td>
+<td>114</td>
+<td>115</td>
+<td>116</td>
+<td>117</td>
+<td>118</td>
+<td>119</td>
+</tr>
+<tr>
+<th>9</th>
+<td>120</td>
+<td>121</td>
+<td>122</td>
+<td>123</td>
+<td>124</td>
+<td>125</td>
+<td>126</td>
+<td>127</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># How to generate the table above</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+<span class="n">note_symbols</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;C#&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;D#&#39;</span><span class="p">,</span> <span class="s1">&#39;E&#39;</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="s1">&#39;F#&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="s1">&#39;G#&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A#&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">]</span>
+<span class="n">octaves_range</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">midi_numbers</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">note_symbols</span><span class="p">)</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">octaves_range</span><span class="p">))</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">octaves_range</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">note_symbols</span><span class="p">)))</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">midi_numbers</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="n">octaves_range</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">note_symbols</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="n">df</span> <span class="o">&gt;</span> <span class="mi">127</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">NaN</span>
+<span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Notes&#39;</span>
+<span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Octaves&#39;</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">float_format</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{:,.0f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">to_html</span><span class="p">(</span><span class="s1">&#39;midi_chart.html&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Here are function prototype for you to start.</span>
+<span class="k">def</span> <span class="nf">nameOfYourFunction</span><span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="n">octave</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;A function that takes a note and its octave as arguments and returns its MIDI Number.</span>
+<span class="sd">    </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    symbol : str</span>
+<span class="sd">        One of the possible note symbols: C, C#, D, D#, E, F, F#, G, G#, A, A#, B].</span>
+<span class="sd">    </span>
+<span class="sd">    octave : int</span>
+<span class="sd">        The number of the note octave from -1 to 9.</span>
+
+<span class="sd">    Yields</span>
+<span class="sd">    ------</span>
+<span class="sd">    int</span>
+<span class="sd">        The MIDI number of the note.</span>
+
+<span class="sd">    Example</span>
+<span class="sd">    --------</span>
+
+<span class="sd">    &gt;&gt;&gt; print(nameOfYourFunction(&#39;A&#39;,3))</span>
+<span class="sd">    57</span>
+<span class="sd">    </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">note_to_midi</span><span class="p">(</span><span class="n">symbol</span><span class="o">=</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="n">octave</span><span class="o">=</span><span class="mi">4</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;A function that takes a note and its octave as arguments and returns its MIDI Number.</span>
+<span class="sd">    </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    symbol : str</span>
+<span class="sd">        One of the possible note symbols: C, C#, D, D#, E, F, F#, G, G#, A, A#, B].</span>
+<span class="sd">    </span>
+<span class="sd">    octave : int</span>
+<span class="sd">        The number of the note octave from -1 to 9.</span>
+
+<span class="sd">    Yields</span>
+<span class="sd">    ------</span>
+<span class="sd">    int</span>
+<span class="sd">        The MIDI number of the note.</span>
+
+<span class="sd">    Example</span>
+<span class="sd">    --------</span>
+
+<span class="sd">    &gt;&gt;&gt; print(nameOfYourFunction(&#39;A&#39;,3))</span>
+<span class="sd">    57</span>
+<span class="sd">    </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">note_symbols</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;C#&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;D#&#39;</span><span class="p">,</span> <span class="s1">&#39;E&#39;</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="s1">&#39;F#&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="s1">&#39;G#&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A#&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">]</span>
+    <span class="n">notes_dictionary</span><span class="o">=</span><span class="p">{}</span>         
+    <span class="k">for</span> <span class="n">note</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">note_symbols</span><span class="p">)):</span>
+        <span class="n">notes_dictionary</span><span class="p">[</span><span class="n">note_symbols</span><span class="p">[</span><span class="n">note</span><span class="p">]]</span><span class="o">=</span><span class="n">note</span>
+    <span class="k">return</span> <span class="n">notes_dictionary</span><span class="p">[</span><span class="n">symbol</span><span class="p">]</span><span class="o">+</span><span class="p">(</span><span class="n">octave</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="mi">12</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">note_to_midi</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Step-2:">Step 2:<a class="anchor-link" href="#Step-2:">&#182;</a></h3><p>Create a function that returns the center frequency of a note's MIDI number.</p>
+<p>The <strong>center frequency</strong> of a note as a function of its MIDI number is defined by the formula:</p>
+<p><br />$$\Large F_{pitch}(p)=2^{(p-69)/12}\cdot440$$ <br /></p>
+<p>where $p=\text{MIDI Note Number}$ and the $\text{center frequency}=F_{pitch}(p)$.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">midiNumber_to_cF</span><span class="p">(</span><span class="n">p</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;A function that takes a MIDI number and returns its center frequency.</span>
+<span class="sd">    </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    midi_number : int</span>
+<span class="sd">        The MIDI number of a note.</span>
+<span class="sd">    </span>
+<span class="sd">    Yields</span>
+<span class="sd">    ------</span>
+<span class="sd">    float</span>
+<span class="sd">        The center frequency of the MIDI Number of a note.</span>
+
+<span class="sd">    Example</span>
+<span class="sd">    --------</span>
+
+<span class="sd">    &gt;&gt;&gt; print(midiNumber_to_cF(57))</span>
+<span class="sd">    220.0</span>
+<span class="sd">    </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="mi">2</span><span class="o">**</span><span class="p">((</span><span class="n">p</span><span class="o">-</span><span class="mi">69</span><span class="p">)</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span><span class="o">*</span><span class="mf">440.0</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">midiNumber_to_cF</span><span class="p">(</span><span class="mi">57</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Step-3:">Step 3:<a class="anchor-link" href="#Step-3:">&#182;</a></h3><ul>
+<li>Define a Note Class with the following attributes: note, octave, pitch and center_frequency.</li>
+<li>Define the following methods for the Note Class: getNote, setNote, getOctave, setOctave, getPitch, getCenterFrequency.</li>
+<li>You can use the functions you just created.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Note</span><span class="p">:</span>
+    <span class="sd">&#39;&#39;&#39;A class with note properties.</span>
+
+<span class="sd">    Attributes</span>
+<span class="sd">    ----------</span>
+<span class="sd">    note : str</span>
+<span class="sd">       The note symbol.</span>
+<span class="sd">    octave : int</span>
+<span class="sd">       The note octave.</span>
+<span class="sd">    pitch : int</span>
+<span class="sd">       The note pitch as a MIDI number.</span>
+<span class="sd">    cF : float</span>
+<span class="sd">       The center frequency of the note.</span>
+
+<span class="sd">    Methods</span>
+<span class="sd">    ------</span>
+<span class="sd">    getNote </span>
+<span class="sd">        Returns the note symbol.</span>
+<span class="sd">    setNote</span>
+<span class="sd">        Sets the note symbol.</span>
+<span class="sd">    getOctave</span>
+<span class="sd">        Returns the note octave.</span>
+<span class="sd">    setOctave</span>
+<span class="sd">        Sets the note octave.</span>
+<span class="sd">    getPitch</span>
+<span class="sd">        Returns the note pitch as a MIDI number.</span>
+<span class="sd">    getCenterFrequency</span>
+<span class="sd">        Returns the center frequency of the note pitch.</span>
+<span class="sd">   </span>
+<span class="sd">    Example</span>
+<span class="sd">    --------</span>
+<span class="sd">   &#39;&#39;&#39;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">note_symbol</span><span class="o">=</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="n">octave</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns a Note object whose note symbol is *note_symbol* and octave is *octave*.</span>
+<span class="sd">        </span>
+<span class="sd">        Attributes</span>
+<span class="sd">        ----------</span>
+<span class="sd">        note_symbol : str</span>
+<span class="sd">           The note symbol.</span>
+<span class="sd">        octave : int</span>
+<span class="sd">           The note octave.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">note_symbol</span> <span class="o">=</span> <span class="n">note_symbol</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">octave</span> <span class="o">=</span> <span class="n">octave</span>
+        
+    <span class="k">def</span> <span class="nf">getNote</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the note symbol.</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">note_symbol</span>
+    
+    <span class="k">def</span> <span class="nf">setNote</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">note</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the note symbol.</span>
+<span class="sd">        </span>
+<span class="sd">        Attributes</span>
+<span class="sd">        ----------</span>
+<span class="sd">        note: str</span>
+<span class="sd">           The new note symbol to be set</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">note_symbol</span> <span class="o">=</span> <span class="n">note</span>
+
+    <span class="k">def</span> <span class="nf">getOctave</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the note octave.</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">octave</span>
+    
+    <span class="k">def</span> <span class="nf">setOctave</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">octave</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the note symbol.</span>
+<span class="sd">        </span>
+<span class="sd">        Attributes</span>
+<span class="sd">        ----------</span>
+<span class="sd">        octave : int</span>
+<span class="sd">            The new note octave to be set.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">octave</span> <span class="o">=</span> <span class="n">octave</span>
+    
+    <span class="k">def</span> <span class="nf">__note_to_midi</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="c1">#Note that this method is private because of the __ in the begining, it can&#39;t be accesed from outside.</span>
+            <span class="sd">&#39;&#39;&#39;A function that takes a note and its octave as arguments and returns its MIDI Number.</span>
+
+<span class="sd">            Parameters</span>
+<span class="sd">            ----------</span>
+<span class="sd">            symbol : str</span>
+<span class="sd">                One of the possible note symbols: C, C#, D, D#, E, F, F#, G, G#, A, A#, B].</span>
+
+<span class="sd">            octave : int</span>
+<span class="sd">                The number of the note octave from -1 to 9.</span>
+
+<span class="sd">            Yields</span>
+<span class="sd">            ------</span>
+<span class="sd">            int</span>
+<span class="sd">                The MIDI number of the note.</span>
+
+<span class="sd">            Example</span>
+<span class="sd">            --------</span>
+
+<span class="sd">            &gt;&gt;&gt; print(nameOfYourFunction(&#39;A&#39;,3))</span>
+<span class="sd">            57</span>
+
+<span class="sd">            &#39;&#39;&#39;</span>
+            <span class="n">note_symbols</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;C#&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;D#&#39;</span><span class="p">,</span> <span class="s1">&#39;E&#39;</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="s1">&#39;F#&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="s1">&#39;G#&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A#&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">]</span>
+            <span class="n">notes_dictionary</span><span class="o">=</span><span class="p">{}</span>
+
+            <span class="k">for</span> <span class="n">note</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">note_symbols</span><span class="p">)):</span>
+                <span class="n">notes_dictionary</span><span class="p">[</span><span class="n">note_symbols</span><span class="p">[</span><span class="n">note</span><span class="p">]]</span><span class="o">=</span><span class="n">note</span>
+
+            <span class="k">return</span> <span class="n">notes_dictionary</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">note_symbol</span><span class="p">]</span><span class="o">+</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">octave</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="mi">12</span>
+        
+    
+    <span class="k">def</span> <span class="nf">getPitch</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the pitch of the note as a MIDI nuber.</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__note_to_midi</span><span class="p">())</span>
+    
+    
+    <span class="k">def</span> <span class="nf">getCenterFrequency</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns the pitch of the note as a MIDI nuber.</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="mi">2</span><span class="o">**</span><span class="p">((</span><span class="bp">self</span><span class="o">.</span><span class="n">getPitch</span><span class="p">()</span><span class="o">-</span><span class="mi">69</span><span class="p">)</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span><span class="o">*</span><span class="mf">440.0</span>
+    
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;This note has the following attributes: ... </span><span class="se">\</span>
+<span class="s2">            </span><span class="se">\n</span><span class="s2"> Symbol: </span><span class="si">%s</span><span class="s2"> </span><span class="se">\</span>
+<span class="s2">            </span><span class="se">\n</span><span class="s2"> Octave: </span><span class="si">%d</span><span class="s2"> </span><span class="se">\</span>
+<span class="s2">            </span><span class="se">\n</span><span class="s2"> Pitch: </span><span class="si">%d</span><span class="s2"> </span><span class="se">\</span>
+<span class="s2">            </span><span class="se">\n</span><span class="s2"> Center Frequency: </span><span class="si">%6.2f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">note_symbol</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">octave</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">getPitch</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="n">getCenterFrequency</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">A2</span><span class="o">=</span><span class="n">Note</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">C4</span><span class="o">=</span><span class="n">Note</span><span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<span class="n">note_no_parameters_given</span><span class="o">=</span><span class="n">Note</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">A2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">C4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">note_no_parameters_given</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The pitch as a MIDI number of the </span><span class="si">%s%d</span><span class="s1"> note is: </span><span class="si">%d</span><span class="s1">.&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">A2</span><span class="o">.</span><span class="n">getNote</span><span class="p">(),</span><span class="n">A2</span><span class="o">.</span><span class="n">getOctave</span><span class="p">(),</span> <span class="n">A2</span><span class="o">.</span><span class="n">getPitch</span><span class="p">()))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+  </div><a class="u-url" href="/fastpages/2020/02/29/python-basics.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/fastpages/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">fastpages</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">fastpages</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li><a href="https://github.com/op07n"><svg class="svg-icon"><use xlink:href="/fastpages/assets/minima-social-icons.svg#github"></use></svg> <span class="username">op07n</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
