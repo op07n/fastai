@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://op07n.github.io/fastpages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://op07n.github.io/fastpages/" rel="alternate" type="text/html" /><updated>2020-03-05T01:53:30-06:00</updated><id>https://op07n.github.io/fastpages/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Title</title><link href="https://op07n.github.io/fastpages/2020/03/04/Simple_Plot.html" rel="alternate" type="text/html" title="Title" /><published>2020-03-04T00:00:00-06:00</published><updated>2020-03-04T00:00:00-06:00</updated><id>https://op07n.github.io/fastpages/2020/03/04/Simple_Plot</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/04/Simple_Plot.html">&lt;!--
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://op07n.github.io/fastpages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://op07n.github.io/fastpages/" rel="alternate" type="text/html" /><updated>2020-03-14T15:16:54-05:00</updated><id>https://op07n.github.io/fastpages/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Phone Tracking Threads.</title><link href="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html" rel="alternate" type="text/html" title="Phone Tracking Threads." /><published>2020-03-14T00:00:00-05:00</published><updated>2020-03-14T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html">&lt;p&gt;Borrowed from https://www.youtube.com/watch?v=k87lmT84vIo&lt;/p&gt;
+
+&lt;p&gt;TOC&lt;/p&gt;
+
+&lt;h3 id=&quot;number-one-threat-wi-fi-scanning&quot;&gt;Number one threat: Wi-Fi scanning.&lt;/h3&gt;
+
+&lt;p&gt;This is a very specific thing done by both &lt;strong&gt;Apple&lt;/strong&gt; and &lt;strong&gt;&lt;u&gt;Google&lt;/u&gt;&lt;/strong&gt; to look for routers and their &lt;em&gt;GPS&lt;/em&gt; locations. They then add every &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; router.&lt;/strong&gt; They find into their database with a corresponding location. This information is the basis of &lt;strong&gt;&lt;em&gt;Wi-F&lt;/em&gt;i triangulation&lt;/strong&gt; which I’ll talk about later and it’s used to find everyone’s exact location within six feet. &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; triangulation&lt;/strong&gt; is the problem with this little feature &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; scanning&lt;/strong&gt; is that in effect &lt;strong&gt;Google&lt;/strong&gt; and &lt;strong&gt;Apple&lt;/strong&gt; always know where you are since you are constantly stating to home base which &lt;em&gt;Wi-Fi&lt;/em&gt; routers are near you now. &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; triangulation&lt;/strong&gt; requires your permission to share it to third parties. But I want to clearly distinguish this from &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; scanning&lt;/strong&gt;, which is the probe going out every second to look for existing &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; routers&lt;/strong&gt;. I can tell you right now that &lt;u&gt;there is no way to disable&lt;/u&gt; &lt;strong&gt;Wi-Fi scanning&lt;/strong&gt; on &lt;strong&gt;iOS&lt;/strong&gt;. In fact, as far as I know, the software is embedded in the &lt;strong&gt;Qualcomm&lt;/strong&gt; chip firmware. This is not affected by your location permission settings, so &lt;strong&gt;Apple&lt;/strong&gt; is able to tell your location habits, and in fact, it uses this to tell you: “you are five minutes from your destination”, without telling it your destination. It’s based on collected habits, and this is a supposed privacy phone. &lt;u&gt;What a lie&lt;/u&gt;. So &lt;strong&gt;Apple&lt;/strong&gt; knows where everyone is. This is true of any &lt;strong&gt;Apple&lt;/strong&gt; device like an &lt;strong&gt;iPad&lt;/strong&gt; ,&lt;strong&gt;iTouch&lt;/strong&gt; or even a &lt;strong&gt;Mac&lt;/strong&gt; being upfront with you. I would just leave my &lt;strong&gt;iOS&lt;/strong&gt; device at home because it guarantees this &lt;strong&gt;Apple&lt;/strong&gt; tracking. &lt;em&gt;&lt;u&gt;Find My Phone&lt;/u&gt;&lt;/em&gt; is very effective though you can block other people from seeing your location, and &lt;em&gt;&lt;u&gt;Find My Phone&lt;/u&gt;&lt;/em&gt; you cannot block Apple.&lt;/p&gt;
+
+&lt;p&gt;Now &lt;strong&gt;Google&lt;/strong&gt; has &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; scanning&lt;/strong&gt; too, in fact they invented it, so they’re the original worst offenders. But in newer versions of Android you can actually go to network settings and disable &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; scanning&lt;/strong&gt;. So &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; scanning&lt;/strong&gt; will stop &lt;strong&gt;Google&lt;/strong&gt;, in theory, from tracking your every move like Apple. This doesn’t stop &lt;strong&gt;Google&lt;/strong&gt; from collecting info on &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; routers&lt;/strong&gt;, since that information is crowd-sourced. Though you may turn it &lt;u&gt;off&lt;/u&gt; for yourself or your family, the mailman and the &lt;em&gt;UPS&lt;/em&gt; delivery guy will collect that information from phones in their pocket. But it does stop &lt;strong&gt;Google&lt;/strong&gt; from knowing where you are specifically if location permissions are turned &lt;u&gt;off&lt;/u&gt;, which require &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; triangulation&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s an interesting fact,  &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; scanning&lt;/strong&gt; does not exist in the &lt;strong&gt;Android Open Source Project&lt;/strong&gt; or &lt;strong&gt;AOSP&lt;/strong&gt; perhaps. They didn’t want to share the source code of how they scan for networks and send that information to &lt;strong&gt;Google&lt;/strong&gt;. So clearly &lt;strong&gt;custom roms&lt;/strong&gt; don’t have this issue. &lt;strong&gt;AOSP&lt;/strong&gt; still has &lt;strong&gt;&lt;em&gt;Wi-Fi&lt;/em&gt; triangulation,&lt;/strong&gt; but again that is controlled by permissions.&lt;/p&gt;
+
+&lt;h3 id=&quot;number-two-threat-your-apple-id-and-google-id&quot;&gt;Number two threat: Your Apple ID and Google ID.&lt;/h3&gt;
+
+&lt;p&gt;And this is a big one. The first thing you’re required to do when you get your &lt;strong&gt;iOS&lt;/strong&gt; device or your &lt;strong&gt;Google Android&lt;/strong&gt; is to enter your ID. This is an email address on &lt;strong&gt;Google&lt;/strong&gt; it’s a &lt;strong&gt;gmail&lt;/strong&gt; account if you ever purchase any apps or do any in-app purchases, you will typically attach a credit card to this email. You buy subscriptions with it use it in &lt;strong&gt;itunes&lt;/strong&gt;, and if you have &lt;strong&gt;Apple&lt;/strong&gt; card then you pretty much attach at everything you do financially. So there is absolutely no anonymity with your ID at all. In the case of &lt;strong&gt;Google&lt;/strong&gt; not only do they have your financial info, they also scan your email content, and this may also be attached to your &lt;strong&gt;YouTube&lt;/strong&gt; activity, &lt;strong&gt;Google&lt;/strong&gt; search, ways, so the tracking is horrendous. This is the number one thing I want to eliminate from a phone. The phone is basically an ID card meaning you’re chipped and any information tracked on the phone can be indexed by your real identity. I will tell you right now that there is no way to avoid this on &lt;strong&gt;iOS&lt;/strong&gt;, so I’m giving up. An app on &lt;strong&gt;Google Android&lt;/strong&gt;, &lt;u&gt;this is also impossible&lt;/u&gt;, but it can be done, depending on how you set up an &lt;strong&gt;Android AOSP&lt;/strong&gt; device.&lt;/p&gt;
+
+&lt;h3 id=&quot;number-three-threat-ip-address-tracking&quot;&gt;Number three threat: IP address tracking.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;IP address tracking&lt;/strong&gt; is a very basic concern because of index to your real identity with a &lt;strong&gt;Google ID&lt;/strong&gt; or &lt;strong&gt;Apple ID&lt;/strong&gt;, then someone can see everything that you do on the &lt;em&gt;internet&lt;/em&gt;. Especially with an &lt;strong&gt;Apple&lt;/strong&gt; and &lt;strong&gt;Google&lt;/strong&gt; this is very disturbing obviously, but I want to distinguish the different risks your home &lt;strong&gt;IP address&lt;/strong&gt; is provided by your &lt;strong&gt;DSL&lt;/strong&gt; carrier is the most dangerous to reveal, because it is unique to you, and typically this doesn’t change. It’s otherwise known as a static &lt;strong&gt;IP address&lt;/strong&gt;. It’s not usually static in principle, but in reality that’s how it behaves. I want to contrast that to your activities while unsell data if you’re up and about your &lt;strong&gt;IP address&lt;/strong&gt; will change depending on the cell tower, and your &lt;strong&gt;IP address&lt;/strong&gt; on the go is transient, so you may have many &lt;strong&gt;IP addresses&lt;/strong&gt; while on cell data this means that third parties will be unable to match an exact identity to the &lt;strong&gt;IP address&lt;/strong&gt;. However the &lt;strong&gt;IP address&lt;/strong&gt; you’re signed at any given moment is known by your cell carrier. But it’s not information that’s usually shared, unless asked for by law enforcement, and I don’t think this is the type of data they would normally sell, because there are too many changing values they can probably sell info on your &lt;em&gt;internet&lt;/em&gt; traffic with your name directly, without using an &lt;strong&gt;IP address&lt;/strong&gt;. But that’s a different story. In any case, at least this, is easily stopped have a &lt;strong&gt;VPN&lt;/strong&gt;, especially at your home if a &lt;strong&gt;VPN&lt;/strong&gt; is on that &lt;strong&gt;Apple&lt;/strong&gt; and &lt;strong&gt;Google&lt;/strong&gt; will in theory be blocked from knowing your real IP address. I say in theory, because if you’re using &lt;strong&gt;VPN&lt;/strong&gt; software directly on the phone then the &lt;em&gt;operating system&lt;/em&gt; can still know what the real &lt;strong&gt;IP address&lt;/strong&gt; is, so the best solution is to have a &lt;strong&gt;VPN router&lt;/strong&gt;, so the &lt;strong&gt;VPN&lt;/strong&gt; is not in the software embedded on &lt;strong&gt;iOS&lt;/strong&gt; and &lt;strong&gt;Android&lt;/strong&gt;. I have videos on &lt;strong&gt;VPN routers&lt;/strong&gt;, and this is an important part of your home security solution when you’re on the road a &lt;strong&gt;VPN&lt;/strong&gt; will stop your carrier from knowing your info, and for that you need to use the installed &lt;strong&gt;VPN&lt;/strong&gt; software on your phone. But even if you didn’t use it on road, &lt;strong&gt;Apple&lt;/strong&gt; and &lt;strong&gt;Google&lt;/strong&gt; will not know who you are. So even if you don’t use a &lt;strong&gt;VPN&lt;/strong&gt; on the road a lot of detracting by third parties is not useful.&lt;/p&gt;
+
+&lt;h3 id=&quot;number-four-threat-wi-fi-triangulation&quot;&gt;Number four threat: Wi-Fi triangulation.&lt;/h3&gt;
+
+&lt;p&gt;I mentioned &lt;strong&gt;Wi-Fi triangulation&lt;/strong&gt; at the beginning, and this has to be clearly delineated &lt;strong&gt;Wi-Fi triangulation&lt;/strong&gt; is the exact positioning used based on the signal strength of the &lt;strong&gt;Wi-Fi routers&lt;/strong&gt; now you this can accurately position you within six feet even if there’s no &lt;strong&gt;GPS&lt;/strong&gt; signal like if you’re indoors. The good news about &lt;strong&gt;Wi-Fi triangulation&lt;/strong&gt; is that it is controlled by permissions, meaning you can switch it &lt;strong&gt;off&lt;/strong&gt; based on your location settings &lt;strong&gt;Wi-Fi triangulation&lt;/strong&gt; is about sharing your location to third parties, meaning not &lt;strong&gt;Apple&lt;/strong&gt; and &lt;strong&gt;Google&lt;/strong&gt;. So if you turn location &lt;strong&gt;off&lt;/strong&gt;, this will not be shared with others. The only complication with this is that &lt;strong&gt;iOS&lt;/strong&gt; actually split the location permissions, so that it can give apps different permissions than the advertising that’s in the apps. So if not set right,  you could end up with location still &lt;strong&gt;on&lt;/strong&gt; for advertisers which is the default.  I had a video from early last year that discussed the settings though it probably changed a little bit in newer &lt;strong&gt;iOS&lt;/strong&gt; versions and without testing it’s hard to know if your app location settings override the advertising location settings.  This confusing set up does not exist on &lt;strong&gt;Android&lt;/strong&gt;, so there is pretty black and white, you review each app and all the permissions and fortunately this has become a lot easier to do on new versions of &lt;strong&gt;Android&lt;/strong&gt;. The &lt;strong&gt;Wi-Fi triangulation&lt;/strong&gt; issue exists on all &lt;strong&gt;Android&lt;/strong&gt; and &lt;strong&gt;iOS&lt;/strong&gt; even &lt;strong&gt;AOSP&lt;/strong&gt;, so this means you still have to meticulously examine the location permissions for each app at all times in closed apps you’re not using if they have &lt;em&gt;location permissions&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;number-five-threat-cell-carrier-tracking&quot;&gt;Number five threat: Cell carrier tracking.&lt;/h3&gt;
+
+&lt;p&gt;Now this is impossible to evade with a standard cell phone. No cell phone is immune from your cell carrier tracking your location, and I have another video explaining all this tracking and possible hacks to your phone. Fortunately I perceive this more as a government threat and that’s not something the average person concerns themselves with usually. But it can be an occasional legit concern, like when attending protests and such, and for journalists. So the solution is simple if you’re doing something that you’d rather not have your government track you, turn &lt;strong&gt;off&lt;/strong&gt; your phone completely or remove the &lt;strong&gt;SIM&lt;/strong&gt; card, and that should be good enough for the occasional squashing of this threat. So what’s the clear solution to all this? Clearly several threats have no solution if you’re stuck to &lt;strong&gt;iOS&lt;/strong&gt; and your &lt;strong&gt;Google&lt;/strong&gt; &lt;strong&gt;Android&lt;/strong&gt;. So you’ll have to give those up or leave the devices at home. The top solution is plainly a &lt;strong&gt;Linux&lt;/strong&gt; phone and I mean get new &lt;strong&gt;Linux&lt;/strong&gt; and not an &lt;strong&gt;Android&lt;/strong&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Borrowed from https://www.youtube.com/watch?v=k87lmT84vIo</summary></entry><entry><title type="html">Title</title><link href="https://op07n.github.io/fastpages/2020/03/13/Simple_Plot.html" rel="alternate" type="text/html" title="Title" /><published>2020-03-13T00:00:00-05:00</published><updated>2020-03-13T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/13/Simple_Plot</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/13/Simple_Plot.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -12,7 +38,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h1 id=&quot;Simple-Plot&quot;&gt;Simple Plot&lt;a class=&quot;anchor-link&quot; href=&quot;#Simple-Plot&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://www.labri.fr/perso/nrougier/teaching/matplotlib/#id5&quot;&gt;Matplotlib Tutorial#Simple Plot&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Simple-Plot&quot;&gt;Simple Plot&lt;a class=&quot;anchor-link&quot; href=&quot;#Simple-Plot&quot;&gt; &lt;/a&gt;&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://www.labri.fr/perso/nrougier/teaching/matplotlib/#id5&quot;&gt;Matplotlib Tutorial#Simple Plot&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This first example provides a quick introduction to Vega. We will draw two curves on one plot, the &lt;em&gt;sine&lt;/em&gt; and &lt;em&gt;cosine&lt;/em&gt; functions from $-\pi$ to $+\pi$, and look at how to tweak and spruce up the results.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -42,7 +68,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Create-Data&quot;&gt;Create Data&lt;a class=&quot;anchor-link&quot; href=&quot;#Create-Data&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We need some data to display. Altair works best with long-form (&lt;a href=&quot;http://vita.had.co.nz/papers/tidy-data.pdf&quot;&gt;&lt;em&gt;tidy&lt;/em&gt;&lt;/a&gt;) data, so we will structure our data frame this way.&lt;/p&gt;
+&lt;h3 id=&quot;Create-Data&quot;&gt;Create Data&lt;a class=&quot;anchor-link&quot; href=&quot;#Create-Data&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We need some data to display. Altair works best with long-form (&lt;a href=&quot;http://vita.had.co.nz/papers/tidy-data.pdf&quot;&gt;&lt;em&gt;tidy&lt;/em&gt;&lt;/a&gt;) data, so we will structure our data frame this way.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -138,7 +164,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Plot-using-defaults&quot;&gt;Plot using defaults&lt;a class=&quot;anchor-link&quot; href=&quot;#Plot-using-defaults&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In Vega, the styling defaults have been selected with aesthetics in mind and you will already get nice results without modifying the default values.&lt;/p&gt;
+&lt;h3 id=&quot;Plot-using-defaults&quot;&gt;Plot using defaults&lt;a class=&quot;anchor-link&quot; href=&quot;#Plot-using-defaults&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In Vega, the styling defaults have been selected with aesthetics in mind and you will already get nice results without modifying the default values.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -175,7 +201,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h4 id=&quot;Aside:-inspecting-the-Vega-lite-specification&quot;&gt;Aside: inspecting the Vega-lite specification&lt;a class=&quot;anchor-link&quot; href=&quot;#Aside:-inspecting-the-Vega-lite-specification&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Altair is a package for working with Vega and Vega-lite within python / pandas. It outputs Vega and Vega-lite specifications for visualizations.&lt;/p&gt;
+&lt;h4 id=&quot;Aside:-inspecting-the-Vega-lite-specification&quot;&gt;Aside: inspecting the Vega-lite specification&lt;a class=&quot;anchor-link&quot; href=&quot;#Aside:-inspecting-the-Vega-lite-specification&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Altair is a package for working with Vega and Vega-lite within python / pandas. It outputs Vega and Vega-lite specifications for visualizations.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -235,7 +261,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Explicitly-set-important-configuration-and-styling-preferences-to-match-default-values&quot;&gt;Explicitly set important configuration and styling preferences to match default values&lt;a class=&quot;anchor-link&quot; href=&quot;#Explicitly-set-important-configuration-and-styling-preferences-to-match-default-values&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This is the same chart as before, but here we explicitly set certain values to their defaults so you can manipulate them to see the effect on the output.&lt;/p&gt;
+&lt;h3 id=&quot;Explicitly-set-important-configuration-and-styling-preferences-to-match-default-values&quot;&gt;Explicitly set important configuration and styling preferences to match default values&lt;a class=&quot;anchor-link&quot; href=&quot;#Explicitly-set-important-configuration-and-styling-preferences-to-match-default-values&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This is the same chart as before, but here we explicitly set certain values to their defaults so you can manipulate them to see the effect on the output.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -285,7 +311,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Changing-colors-and-line-widths&quot;&gt;Changing colors and line widths&lt;a class=&quot;anchor-link&quot; href=&quot;#Changing-colors-and-line-widths&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Let us do the same plot with a different color scheme, thicker lines, show the result with a different aspect ratio.&lt;/p&gt;
+&lt;h3 id=&quot;Changing-colors-and-line-widths&quot;&gt;Changing colors and line widths&lt;a class=&quot;anchor-link&quot; href=&quot;#Changing-colors-and-line-widths&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Let us do the same plot with a different color scheme, thicker lines, show the result with a different aspect ratio.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -328,7 +354,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Setting-limits&quot;&gt;Setting limits&lt;a class=&quot;anchor-link&quot; href=&quot;#Setting-limits&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Let us expand the limits a bit to give the curves some more breathing room.&lt;/p&gt;
+&lt;h3 id=&quot;Setting-limits&quot;&gt;Setting limits&lt;a class=&quot;anchor-link&quot; href=&quot;#Setting-limits&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Let us expand the limits a bit to give the curves some more breathing room.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -372,7 +398,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Setting-tick-labels&quot;&gt;Setting tick labels&lt;a class=&quot;anchor-link&quot; href=&quot;#Setting-tick-labels&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Let us change the x-tick labels to show values that are convenient quantities in radians.  It would be nice to set the labels to $-\pi$, $-\pi/2$, etc. but this is not possible in Altair/Vega-Lite. We need to use the full Vega to do this. See below.&lt;/p&gt;
+&lt;h3 id=&quot;Setting-tick-labels&quot;&gt;Setting tick labels&lt;a class=&quot;anchor-link&quot; href=&quot;#Setting-tick-labels&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Let us change the x-tick labels to show values that are convenient quantities in radians.  It would be nice to set the labels to $-\pi$, $-\pi/2$, etc. but this is not possible in Altair/Vega-Lite. We need to use the full Vega to do this. See below.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -419,7 +445,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Change-the-legend-symbol&quot;&gt;Change the legend symbol&lt;a class=&quot;anchor-link&quot; href=&quot;#Change-the-legend-symbol&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The default legend symbol is the circle. This can be changed by specifying a different mark, either one of the available (&lt;code&gt;cross&lt;/code&gt;, &lt;code&gt;diamond&lt;/code&gt;, &lt;code&gt;square&lt;/code&gt;, &lt;code&gt;triangle-up&lt;/code&gt;, or &lt;code&gt;triangle-down&lt;/code&gt;), or by specifying an SVG path, such as &lt;code&gt;h0,2&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;Change-the-legend-symbol&quot;&gt;Change the legend symbol&lt;a class=&quot;anchor-link&quot; href=&quot;#Change-the-legend-symbol&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The default legend symbol is the circle. This can be changed by specifying a different mark, either one of the available (&lt;code&gt;cross&lt;/code&gt;, &lt;code&gt;diamond&lt;/code&gt;, &lt;code&gt;square&lt;/code&gt;, &lt;code&gt;triangle-up&lt;/code&gt;, or &lt;code&gt;triangle-down&lt;/code&gt;), or by specifying an SVG path, such as &lt;code&gt;h0,2&lt;/code&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -464,7 +490,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Annotate-some-points&quot;&gt;Annotate some points&lt;a class=&quot;anchor-link&quot; href=&quot;#Annotate-some-points&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To tell a story with data, it is often useful to emphasize some data points, and annotation is an indispensable tool.&lt;/p&gt;
+&lt;h3 id=&quot;Annotate-some-points&quot;&gt;Annotate some points&lt;a class=&quot;anchor-link&quot; href=&quot;#Annotate-some-points&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To tell a story with data, it is often useful to emphasize some data points, and annotation is an indispensable tool.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -606,7 +632,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Setting-tick-labels,-Pt.-2&quot;&gt;Setting tick labels, Pt. 2&lt;a class=&quot;anchor-link&quot; href=&quot;#Setting-tick-labels,-Pt.-2&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Let us change the x-tick labels to show values that are convenient quantities in radians with nice labels. It is not possible to do this in Altair/Vega-Lite, but we can do this in full Vega 3.&lt;/p&gt;
+&lt;h3 id=&quot;Setting-tick-labels,-Pt.-2&quot;&gt;Setting tick labels, Pt. 2&lt;a class=&quot;anchor-link&quot; href=&quot;#Setting-tick-labels,-Pt.-2&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Let us change the x-tick labels to show values that are convenient quantities in radians with nice labels. It is not possible to do this in Altair/Vega-Lite, but we can do this in full Vega 3.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1088,7 +1114,7 @@
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Title</title><link href="https://op07n.github.io/fastpages/2020/03/04/RTL-FM-Decode.html" rel="alternate" type="text/html" title="Title" /><published>2020-03-04T00:00:00-06:00</published><updated>2020-03-04T00:00:00-06:00</updated><id>https://op07n.github.io/fastpages/2020/03/04/RTL-FM-Decode</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/04/RTL-FM-Decode.html">&lt;!--
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Title</title><link href="https://op07n.github.io/fastpages/2020/03/13/RTL-FM-Decode.html" rel="alternate" type="text/html" title="Title" /><published>2020-03-13T00:00:00-05:00</published><updated>2020-03-13T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/13/RTL-FM-Decode</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/13/RTL-FM-Decode.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -33008,6 +33034,481 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;/div&gt;
 
 &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://op07n.github.io/fastpages/2020/02/29/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-29T00:00:00-06:00</published><updated>2020-02-29T00:00:00-06:00</updated><id>https://op07n.github.io/fastpages/2020/02/29/test</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/02/29/test.html">&lt;!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-02-29-test.ipynb
+--&gt;
+
+&lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
+        
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h1 id=&quot;About&quot;&gt;About&lt;a class=&quot;anchor-link&quot; href=&quot;#About&quot;&gt; &lt;/a&gt;&lt;/h1&gt;&lt;p&gt;This notebook is a demonstration of some of capabilities of &lt;code&gt;fastpages&lt;/code&gt; with notebooks.&lt;/p&gt;
+&lt;p&gt;With &lt;code&gt;fastpages&lt;/code&gt; you can save your jupyter notebooks into the &lt;code&gt;_notebooks&lt;/code&gt; folder at the root of your repository, and they will be automatically be converted to Jekyll compliant blog posts!&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;Front-Matter&quot;&gt;Front Matter&lt;a class=&quot;anchor-link&quot; href=&quot;#Front-Matter&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Front Matter is a markdown cell at the beginning of your notebook that allows you to inject metadata into your notebook. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setting &lt;code&gt;toc: true&lt;/code&gt; will automatically generate a table of contents&lt;/li&gt;
+&lt;li&gt;Setting &lt;code&gt;badges: true&lt;/code&gt; will automatically include GitHub and Google Colab links to your notebook.&lt;/li&gt;
+&lt;li&gt;Setting &lt;code&gt;comments: true&lt;/code&gt; will enable commenting on your blog post, powered by &lt;a href=&quot;https://github.com/utterance/utterances&quot;&gt;utterances&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More details and options for front matter can be viewed on the notebook section of the &lt;a href=&quot;https://github.com/fastai/fastpages#Writing-Blog-Posts-With-Jupyter&quot;&gt;README&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;Markdown-Shortcuts&quot;&gt;Markdown Shortcuts&lt;a class=&quot;anchor-link&quot; href=&quot;#Markdown-Shortcuts&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;put a &lt;code&gt;#hide&lt;/code&gt; flag at the top of any cell you want to completely hide in the docs&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;put a &lt;code&gt;#collapse&lt;/code&gt; flag at the top of any cell if you want to hide that cell by default, but stil have it be visible to the reader:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pd&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;altair&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;alt&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;put a &lt;code&gt;#collapse_show&lt;/code&gt; flag at the top of any cell if you want to &lt;strong&gt;show&lt;/strong&gt; that cell by default, but give the reader the option to hide it:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot; open=&quot;&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse_show&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;cars&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/cars.json&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/movies.json&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sp500&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/sp500.csv&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;stocks&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/stocks.csv&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;flights&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/flights-5k.json&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;Interactive-Charts-With-Altair&quot;&gt;Interactive Charts With Altair&lt;a class=&quot;anchor-link&quot; href=&quot;#Interactive-Charts-With-Altair&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Charts made with Altair remain interactive.  Example charts taken from &lt;a href=&quot;https://github.com/uwdata/visualization-curriculum&quot;&gt;this repo&lt;/a&gt;, specifically &lt;a href=&quot;https://github.com/uwdata/visualization-curriculum/blob/master/altair_interaction.ipynb&quot;&gt;this notebook&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h3 id=&quot;Example-1:-DropDown&quot;&gt;Example 1: DropDown&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-1:-DropDown&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# single-value selection over [Major_Genre, MPAA_Rating] pairs&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# use specific hard-wired values as the initial selected values&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;selection&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selection_single&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Select&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Major_Genre&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;MPAA_Rating&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Major_Genre&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Drama&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;MPAA_Rating&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;R&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Major_Genre&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;binding_select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;MPAA_Rating&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;binding_radio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpaa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  
+&lt;span class=&quot;c1&quot;&gt;# scatter plot, modify opacity based on selection&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Chart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_circle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;selection&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Rotten_Tomatoes_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;IMDB_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;tooltip&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Title:N&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;opacity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;condition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.75&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.05&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+
+&lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
+
+&lt;div id=&quot;altair-viz-1&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  (function(spec, embedOpt){
+    const outputDiv = document.getElementById(&quot;altair-viz-1&quot;);
+    const paths = {
+      &quot;vega&quot;: &quot;https://cdn.jsdelivr.net/npm//vega@5?noext&quot;,
+      &quot;vega-lib&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lib?noext&quot;,
+      &quot;vega-lite&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lite@4.0.0?noext&quot;,
+      &quot;vega-embed&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-embed@6?noext&quot;,
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () =&gt; resolve(paths[lib]);
+        s.onerror = () =&gt; reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName(&quot;head&quot;)[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `&lt;div class=&quot;error&quot; style=&quot;color:red;&quot;&gt;${err}&lt;/div&gt;`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err =&gt; showError(`Javascript Error: ${err.message}&lt;br&gt;This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === &quot;function&quot; &amp;&amp; define.amd) {
+      requirejs.config({paths});
+      require([&quot;vega-embed&quot;], displayChart, err =&gt; showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === &quot;function&quot;) {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript(&quot;vega&quot;)
+        .then(() =&gt; loadScript(&quot;vega-lite&quot;))
+        .then(() =&gt; loadScript(&quot;vega-embed&quot;))
+        .catch(showError)
+        .then(() =&gt; displayChart(vegaEmbed));
+    }
+  })({&quot;config&quot;: {&quot;view&quot;: {&quot;continuousWidth&quot;: 400, &quot;continuousHeight&quot;: 300}}, &quot;data&quot;: {&quot;url&quot;: &quot;https://vega.github.io/vega-datasets/data/movies.json&quot;}, &quot;mark&quot;: &quot;circle&quot;, &quot;encoding&quot;: {&quot;opacity&quot;: {&quot;condition&quot;: {&quot;value&quot;: 0.75, &quot;selection&quot;: &quot;Select&quot;}, &quot;value&quot;: 0.05}, &quot;tooltip&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;Title&quot;}, &quot;x&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;Rotten_Tomatoes_Rating&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;IMDB_Rating&quot;}}, &quot;selection&quot;: {&quot;Select&quot;: {&quot;type&quot;: &quot;single&quot;, &quot;fields&quot;: [&quot;Major_Genre&quot;, &quot;MPAA_Rating&quot;], &quot;init&quot;: {&quot;Major_Genre&quot;: &quot;Drama&quot;, &quot;MPAA_Rating&quot;: &quot;R&quot;}, &quot;bind&quot;: {&quot;Major_Genre&quot;: {&quot;input&quot;: &quot;select&quot;, &quot;options&quot;: [&quot;Action&quot;, &quot;Adventure&quot;, &quot;Black Comedy&quot;, &quot;Comedy&quot;, &quot;Concert/Performance&quot;, &quot;Documentary&quot;, &quot;Drama&quot;, &quot;Horror&quot;, &quot;Musical&quot;, &quot;Romantic Comedy&quot;, &quot;Thriller/Suspense&quot;, &quot;Western&quot;]}, &quot;MPAA_Rating&quot;: {&quot;input&quot;: &quot;radio&quot;, &quot;options&quot;: [&quot;G&quot;, &quot;PG&quot;, &quot;PG-13&quot;, &quot;R&quot;, &quot;NC-17&quot;, &quot;Not Rated&quot;]}}}}, &quot;$schema&quot;: &quot;https://vega.github.io/schema/vega-lite/v4.0.0.json&quot;}, {&quot;mode&quot;: &quot;vega-lite&quot;});
+&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h3 id=&quot;Example-2:-Tooltips&quot;&gt;Example 2: Tooltips&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-2:-Tooltips&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Chart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_circle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selection_interval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;scales&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encodings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;x&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Rotten_Tomatoes_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;IMDB_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Axis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minExtent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# use min extent to stabilize axis title placement&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;tooltip&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Title:N&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Release_Date:N&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;IMDB_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Rotten_Tomatoes_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+
+&lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
+
+&lt;div id=&quot;altair-viz-3&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  (function(spec, embedOpt){
+    const outputDiv = document.getElementById(&quot;altair-viz-3&quot;);
+    const paths = {
+      &quot;vega&quot;: &quot;https://cdn.jsdelivr.net/npm//vega@5?noext&quot;,
+      &quot;vega-lib&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lib?noext&quot;,
+      &quot;vega-lite&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lite@4.0.0?noext&quot;,
+      &quot;vega-embed&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-embed@6?noext&quot;,
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () =&gt; resolve(paths[lib]);
+        s.onerror = () =&gt; reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName(&quot;head&quot;)[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `&lt;div class=&quot;error&quot; style=&quot;color:red;&quot;&gt;${err}&lt;/div&gt;`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err =&gt; showError(`Javascript Error: ${err.message}&lt;br&gt;This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === &quot;function&quot; &amp;&amp; define.amd) {
+      requirejs.config({paths});
+      require([&quot;vega-embed&quot;], displayChart, err =&gt; showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === &quot;function&quot;) {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript(&quot;vega&quot;)
+        .then(() =&gt; loadScript(&quot;vega-lite&quot;))
+        .then(() =&gt; loadScript(&quot;vega-embed&quot;))
+        .catch(showError)
+        .then(() =&gt; displayChart(vegaEmbed));
+    }
+  })({&quot;config&quot;: {&quot;view&quot;: {&quot;continuousWidth&quot;: 400, &quot;continuousHeight&quot;: 300}}, &quot;data&quot;: {&quot;url&quot;: &quot;https://vega.github.io/vega-datasets/data/movies.json&quot;}, &quot;mark&quot;: &quot;circle&quot;, &quot;encoding&quot;: {&quot;tooltip&quot;: [{&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;Title&quot;}, {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;Release_Date&quot;}, {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;IMDB_Rating&quot;}, {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;Rotten_Tomatoes_Rating&quot;}], &quot;x&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;Rotten_Tomatoes_Rating&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;axis&quot;: {&quot;minExtent&quot;: 30}, &quot;field&quot;: &quot;IMDB_Rating&quot;}}, &quot;height&quot;: 400, &quot;selection&quot;: {&quot;selector002&quot;: {&quot;type&quot;: &quot;interval&quot;, &quot;bind&quot;: &quot;scales&quot;, &quot;encodings&quot;: [&quot;x&quot;]}}, &quot;width&quot;: 600, &quot;$schema&quot;: &quot;https://vega.github.io/schema/vega-lite/v4.0.0.json&quot;}, {&quot;mode&quot;: &quot;vega-lite&quot;});
+&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h3 id=&quot;Example-3:-More-Tooltips&quot;&gt;Example 3: More Tooltips&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-3:-More-Tooltips&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# select a point for which to provide details-on-demand&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selection_single&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;encodings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;x&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# limit selection to x-axis value&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;mouseover&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# select on mouseover events&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;nearest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# select data point nearest the cursor&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;none&amp;#39;&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# empty selection includes no data points&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# define our base line chart of stock prices&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Chart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;date:T&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;price:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Scale&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;log&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;symbol:N&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;layer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# base line chart&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# add a rule mark to serve as a guide line&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Chart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_rule&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;#aaa&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;date:T&amp;#39;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transform_filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# add circle marks for selected time points, hide unselected points&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_circle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;opacity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;condition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# add white stroked text to provide a legible background for labels&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;left&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;white&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strokeWidth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;price:Q&amp;#39;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transform_filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# add text labels for stock prices&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;left&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;price:Q&amp;#39;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transform_filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stocks&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;700&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+
+&lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
+
+&lt;div id=&quot;altair-viz-4&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  (function(spec, embedOpt){
+    const outputDiv = document.getElementById(&quot;altair-viz-4&quot;);
+    const paths = {
+      &quot;vega&quot;: &quot;https://cdn.jsdelivr.net/npm//vega@5?noext&quot;,
+      &quot;vega-lib&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lib?noext&quot;,
+      &quot;vega-lite&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lite@4.0.0?noext&quot;,
+      &quot;vega-embed&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-embed@6?noext&quot;,
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () =&gt; resolve(paths[lib]);
+        s.onerror = () =&gt; reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName(&quot;head&quot;)[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `&lt;div class=&quot;error&quot; style=&quot;color:red;&quot;&gt;${err}&lt;/div&gt;`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err =&gt; showError(`Javascript Error: ${err.message}&lt;br&gt;This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === &quot;function&quot; &amp;&amp; define.amd) {
+      requirejs.config({paths});
+      require([&quot;vega-embed&quot;], displayChart, err =&gt; showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === &quot;function&quot;) {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript(&quot;vega&quot;)
+        .then(() =&gt; loadScript(&quot;vega-lite&quot;))
+        .then(() =&gt; loadScript(&quot;vega-embed&quot;))
+        .catch(showError)
+        .then(() =&gt; displayChart(vegaEmbed));
+    }
+  })({&quot;config&quot;: {&quot;view&quot;: {&quot;continuousWidth&quot;: 400, &quot;continuousHeight&quot;: 300}}, &quot;layer&quot;: [{&quot;mark&quot;: &quot;line&quot;, &quot;encoding&quot;: {&quot;color&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;symbol&quot;}, &quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;, &quot;scale&quot;: {&quot;type&quot;: &quot;log&quot;}}}}, {&quot;mark&quot;: {&quot;type&quot;: &quot;rule&quot;, &quot;color&quot;: &quot;#aaa&quot;}, &quot;encoding&quot;: {&quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}}, &quot;transform&quot;: [{&quot;filter&quot;: {&quot;selection&quot;: &quot;selector003&quot;}}]}, {&quot;mark&quot;: &quot;circle&quot;, &quot;encoding&quot;: {&quot;color&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;symbol&quot;}, &quot;opacity&quot;: {&quot;condition&quot;: {&quot;value&quot;: 1, &quot;selection&quot;: &quot;selector003&quot;}, &quot;value&quot;: 0}, &quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;, &quot;scale&quot;: {&quot;type&quot;: &quot;log&quot;}}}, &quot;selection&quot;: {&quot;selector003&quot;: {&quot;type&quot;: &quot;single&quot;, &quot;encodings&quot;: [&quot;x&quot;], &quot;on&quot;: &quot;mouseover&quot;, &quot;nearest&quot;: true, &quot;empty&quot;: &quot;none&quot;}}}, {&quot;mark&quot;: {&quot;type&quot;: &quot;text&quot;, &quot;align&quot;: &quot;left&quot;, &quot;dx&quot;: 5, &quot;dy&quot;: -5, &quot;stroke&quot;: &quot;white&quot;, &quot;strokeWidth&quot;: 2}, &quot;encoding&quot;: {&quot;color&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;symbol&quot;}, &quot;text&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;}, &quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;, &quot;scale&quot;: {&quot;type&quot;: &quot;log&quot;}}}, &quot;transform&quot;: [{&quot;filter&quot;: {&quot;selection&quot;: &quot;selector003&quot;}}]}, {&quot;mark&quot;: {&quot;type&quot;: &quot;text&quot;, &quot;align&quot;: &quot;left&quot;, &quot;dx&quot;: 5, &quot;dy&quot;: -5}, &quot;encoding&quot;: {&quot;color&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;symbol&quot;}, &quot;text&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;}, &quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;, &quot;scale&quot;: {&quot;type&quot;: &quot;log&quot;}}}, &quot;transform&quot;: [{&quot;filter&quot;: {&quot;selection&quot;: &quot;selector003&quot;}}]}], &quot;data&quot;: {&quot;url&quot;: &quot;https://vega.github.io/vega-datasets/data/stocks.csv&quot;}, &quot;height&quot;: 400, &quot;width&quot;: 700, &quot;$schema&quot;: &quot;https://vega.github.io/schema/vega-lite/v4.0.0.json&quot;}, {&quot;mode&quot;: &quot;vega-lite&quot;});
+&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;Other-Elements&quot;&gt;Other Elements&lt;a class=&quot;anchor-link&quot; href=&quot;#Other-Elements&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h3 id=&quot;Tweetcards&quot;&gt;Tweetcards&lt;a class=&quot;anchor-link&quot; href=&quot;#Tweetcards&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; twitter: https://twitter.com/jakevdp/status/1204765621767901185?s=20&lt;/code&gt; will render this:
+
+&lt;center&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Altair 4.0 is released! &lt;a href=&quot;https://t.co/PCyrIOTcvv&quot;&gt;https://t.co/PCyrIOTcvv&lt;/a&gt;&lt;br /&gt;Try it with:&lt;br /&gt;&lt;br /&gt;  pip install -U altair&lt;br /&gt;&lt;br /&gt;The full list of changes is at &lt;a href=&quot;https://t.co/roXmzcsT58&quot;&gt;https://t.co/roXmzcsT58&lt;/a&gt; ...read on for some highlights. &lt;a href=&quot;https://t.co/vWJ0ZveKbZ&quot;&gt;pic.twitter.com/vWJ0ZveKbZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jake VanderPlas (@jakevdp) &lt;a href=&quot;https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw&quot;&gt;December 11, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h3 id=&quot;Youtube-Videos&quot;&gt;Youtube Videos&lt;a class=&quot;anchor-link&quot; href=&quot;#Youtube-Videos&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; youtube: https://youtu.be/XfoYk_Z5AkI&lt;/code&gt; will render this:
+
+&lt;center&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XfoYk_Z5AkI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h3 id=&quot;Boxes-/-Callouts&quot;&gt;Boxes / Callouts&lt;a class=&quot;anchor-link&quot; href=&quot;#Boxes-/-Callouts&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; Warning: There will be no second warning!&lt;/code&gt; will render this:
+&lt;div class=&quot;flash flash-error&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot; /&gt;&lt;/svg&gt;
+    &lt;strong&gt;Warning: &lt;/strong&gt;There will be no second warning!
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Typing &lt;code&gt;&amp;gt; Important: Pay attention! It's important.&lt;/code&gt; will render this:
+&lt;div class=&quot;flash flash-warn&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-zap&quot; viewBox=&quot;0 0 10 16&quot; version=&quot;1.1&quot; width=&quot;10&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M10 7H6l3-7-9 9h4l-3 7 9-9z&quot; /&gt;&lt;/svg&gt;
+    &lt;strong&gt;Important: &lt;/strong&gt;Pay attention! It&amp;#8217;s important.
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Typing &lt;code&gt;&amp;gt; Tip: This is my tip.&lt;/code&gt; will render this:
+&lt;div class=&quot;flash flash-success&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-checklist&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 000 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z&quot; /&gt;&lt;/svg&gt;
+    &lt;strong&gt;Tip: &lt;/strong&gt;This is my tip.
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Typing &lt;code&gt;&amp;gt; Note: Take note of this.&lt;/code&gt; will render this:
+&lt;div class=&quot;flash&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-info&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z&quot; /&gt;&lt;/svg&gt;
+    &lt;strong&gt;Note: &lt;/strong&gt;Take note of this.
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Typing &lt;code&gt;&amp;gt; Note: A doc link to [an example website: fast.ai](https://www.fast.ai/) should also work fine.&lt;/code&gt; will render in the docs:
+&lt;div class=&quot;flash&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z&quot; /&gt;&lt;/svg&gt;
+    &lt;strong&gt;Note: &lt;/strong&gt;A doc link to &lt;a href=&quot;https://www.fast.ai/&quot;&gt;an example website: fast.ai&lt;/a&gt; should also work fine.
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Title</title><link href="https://op07n.github.io/fastpages/2020/02/29/python-basics.html" rel="alternate" type="text/html" title="Title" /><published>2020-02-29T00:00:00-06:00</published><updated>2020-02-29T00:00:00-06:00</updated><id>https://op07n.github.io/fastpages/2020/02/29/python-basics</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/02/29/python-basics.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
@@ -33022,13 +33523,13 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h1 id=&quot;Tutorial---Python-Basics&quot;&gt;Tutorial - Python Basics&lt;a class=&quot;anchor-link&quot; href=&quot;#Tutorial---Python-Basics&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;Tutorial---Python-Basics&quot;&gt;Tutorial - Python Basics&lt;a class=&quot;anchor-link&quot; href=&quot;#Tutorial---Python-Basics&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Table-of-Contents&quot;&gt;Table of Contents&lt;a class=&quot;anchor-link&quot; href=&quot;#Table-of-Contents&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;h2 id=&quot;Table-of-Contents&quot;&gt;Table of Contents&lt;a class=&quot;anchor-link&quot; href=&quot;#Table-of-Contents&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;#comments&quot;&gt;Comments&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#numbers&quot;&gt;Numbers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#strings&quot;&gt;Strings&lt;/a&gt;&lt;/li&gt;
@@ -33058,7 +33559,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;comments&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Comments&quot;&gt;Comments&lt;a class=&quot;anchor-link&quot; href=&quot;#Comments&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Comments&quot;&gt;Comments&lt;a class=&quot;anchor-link&quot; href=&quot;#Comments&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33124,7 +33625,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Numbers-&quot;&gt;Numbers &lt;a id=&quot;numbers&quot; /&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Numbers-&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Numbers-&quot;&gt;Numbers &lt;a id=&quot;numbers&quot; /&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Numbers-&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33215,7 +33716,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;strings&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Strings&quot;&gt;Strings&lt;a class=&quot;anchor-link&quot; href=&quot;#Strings&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Strings&quot;&gt;Strings&lt;a class=&quot;anchor-link&quot; href=&quot;#Strings&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33275,7 +33776,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;lists&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Lists&quot;&gt;Lists&lt;a class=&quot;anchor-link&quot; href=&quot;#Lists&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Lists&quot;&gt;Lists&lt;a class=&quot;anchor-link&quot; href=&quot;#Lists&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33381,14 +33882,14 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;flow_control&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Flow-Control&quot;&gt;Flow Control&lt;a class=&quot;anchor-link&quot; href=&quot;#Flow-Control&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Flow-Control&quot;&gt;Flow Control&lt;a class=&quot;anchor-link&quot; href=&quot;#Flow-Control&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;if&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;If-Statement&quot;&gt;If Statement&lt;a class=&quot;anchor-link&quot; href=&quot;#If-Statement&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;If-Statement&quot;&gt;If Statement&lt;a class=&quot;anchor-link&quot; href=&quot;#If-Statement&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33414,7 +33915,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;for&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;For-Loops&quot;&gt;For Loops&lt;a class=&quot;anchor-link&quot; href=&quot;#For-Loops&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;For-Loops&quot;&gt;For Loops&lt;a class=&quot;anchor-link&quot; href=&quot;#For-Loops&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33486,7 +33987,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;while&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;While-Statement&quot;&gt;While Statement&lt;a class=&quot;anchor-link&quot; href=&quot;#While-Statement&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;While-Statement&quot;&gt;While Statement&lt;a class=&quot;anchor-link&quot; href=&quot;#While-Statement&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33511,7 +34012,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;dictionary&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Dictionary&quot;&gt;Dictionary&lt;a class=&quot;anchor-link&quot; href=&quot;#Dictionary&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Dictionary&quot;&gt;Dictionary&lt;a class=&quot;anchor-link&quot; href=&quot;#Dictionary&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33559,7 +34060,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;functions&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Functions&quot;&gt;Functions&lt;a class=&quot;anchor-link&quot; href=&quot;#Functions&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Functions&quot;&gt;Functions&lt;a class=&quot;anchor-link&quot; href=&quot;#Functions&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33598,7 +34099,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;vl_arguments&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Variable-Length-Arguments&quot;&gt;Variable Length Arguments&lt;a class=&quot;anchor-link&quot; href=&quot;#Variable-Length-Arguments&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;Variable-Length-Arguments&quot;&gt;Variable Length Arguments&lt;a class=&quot;anchor-link&quot; href=&quot;#Variable-Length-Arguments&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33625,7 +34126,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;classes&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Classes&quot;&gt;Classes&lt;a class=&quot;anchor-link&quot; href=&quot;#Classes&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Classes&quot;&gt;Classes&lt;a class=&quot;anchor-link&quot; href=&quot;#Classes&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33712,7 +34213,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;inheritance&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Classes-Inheritance&quot;&gt;Classes Inheritance&lt;a class=&quot;anchor-link&quot; href=&quot;#Classes-Inheritance&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;Classes-Inheritance&quot;&gt;Classes Inheritance&lt;a class=&quot;anchor-link&quot; href=&quot;#Classes-Inheritance&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33791,7 +34292,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;help&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Help-Commands&quot;&gt;Help Commands&lt;a class=&quot;anchor-link&quot; href=&quot;#Help-Commands&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Help-Commands&quot;&gt;Help Commands&lt;a class=&quot;anchor-link&quot; href=&quot;#Help-Commands&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33941,7 +34442,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;p&gt;&lt;a id=&quot;exercise&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Exercise&quot;&gt;Exercise&lt;a class=&quot;anchor-link&quot; href=&quot;#Exercise&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Exercise&quot;&gt;Exercise&lt;a class=&quot;anchor-link&quot; href=&quot;#Exercise&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -33958,7 +34459,7 @@ and for all notes of the C-minor scale C4, D4, E$\flat$4, F4, G4, A4, B4, C5.&qu
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Step-1:&quot;&gt;Step 1:&lt;a class=&quot;anchor-link&quot; href=&quot;#Step-1:&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create a function that converts a note to its midi number.&lt;/p&gt;
+&lt;h3 id=&quot;Step-1:&quot;&gt;Step 1:&lt;a class=&quot;anchor-link&quot; href=&quot;#Step-1:&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create a function that converts a note to its midi number.&lt;/p&gt;
 &lt;p&gt;Hints:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The function can take as arguments a string with the note symbol (e.g. 'A') and an integer as the note octave. &lt;br /&gt; Some useful MIDI Music Theory can be found at:[Wikipedia]
@@ -34285,7 +34786,7 @@ $$\text{MIDI_number}=\text{value assigned to dictionary note (e.g dictionary['A'
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Step-2:&quot;&gt;Step 2:&lt;a class=&quot;anchor-link&quot; href=&quot;#Step-2:&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create a function that returns the center frequency of a note's MIDI number.&lt;/p&gt;
+&lt;h3 id=&quot;Step-2:&quot;&gt;Step 2:&lt;a class=&quot;anchor-link&quot; href=&quot;#Step-2:&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create a function that returns the center frequency of a note's MIDI number.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;center frequency&lt;/strong&gt; of a note as a function of its MIDI number is defined by the formula:&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;$$\Large F_{pitch}(p)=2^{(p-69)/12}\cdot440$$ &lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;where $p=\text{MIDI Note Number}$ and the $\text{center frequency}=F_{pitch}(p)$.&lt;/p&gt;
@@ -34330,7 +34831,7 @@ $$\text{MIDI_number}=\text{value assigned to dictionary note (e.g dictionary['A'
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Step-3:&quot;&gt;Step 3:&lt;a class=&quot;anchor-link&quot; href=&quot;#Step-3:&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3 id=&quot;Step-3:&quot;&gt;Step 3:&lt;a class=&quot;anchor-link&quot; href=&quot;#Step-3:&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Define a Note Class with the following attributes: note, octave, pitch and center_frequency.&lt;/li&gt;
 &lt;li&gt;Define the following methods for the Note Class: getNote, setNote, getOctave, setOctave, getPitch, getCenterFrequency.&lt;/li&gt;
 &lt;li&gt;You can use the functions you just created.&lt;/li&gt;
@@ -34509,481 +35010,6 @@ $$\text{MIDI_number}=\text{value assigned to dictionary note (e.g dictionary['A'
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://op07n.github.io/fastpages/2020/02/29/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-29T00:00:00-06:00</published><updated>2020-02-29T00:00:00-06:00</updated><id>https://op07n.github.io/fastpages/2020/02/29/test</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/02/29/test.html">&lt;!--
-#################################################
-### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
-#################################################
-# file to edit: _notebooks/2020-02-29-test.ipynb
---&gt;
-
-&lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
-        
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h1 id=&quot;About&quot;&gt;About&lt;a class=&quot;anchor-link&quot; href=&quot;#About&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;This notebook is a demonstration of some of capabilities of &lt;code&gt;fastpages&lt;/code&gt; with notebooks.&lt;/p&gt;
-&lt;p&gt;With &lt;code&gt;fastpages&lt;/code&gt; you can save your jupyter notebooks into the &lt;code&gt;_notebooks&lt;/code&gt; folder at the root of your repository, and they will be automatically be converted to Jekyll compliant blog posts!&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Front-Matter&quot;&gt;Front Matter&lt;a class=&quot;anchor-link&quot; href=&quot;#Front-Matter&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Front Matter is a markdown cell at the beginning of your notebook that allows you to inject metadata into your notebook. For example:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Setting &lt;code&gt;toc: true&lt;/code&gt; will automatically generate a table of contents&lt;/li&gt;
-&lt;li&gt;Setting &lt;code&gt;badges: true&lt;/code&gt; will automatically include GitHub and Google Colab links to your notebook.&lt;/li&gt;
-&lt;li&gt;Setting &lt;code&gt;comments: true&lt;/code&gt; will enable commenting on your blog post, powered by &lt;a href=&quot;https://github.com/utterance/utterances&quot;&gt;utterances&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;More details and options for front matter can be viewed on the notebook section of the &lt;a href=&quot;https://github.com/fastai/fastpages#Writing-Blog-Posts-With-Jupyter&quot;&gt;README&lt;/a&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Markdown-Shortcuts&quot;&gt;Markdown Shortcuts&lt;a class=&quot;anchor-link&quot; href=&quot;#Markdown-Shortcuts&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;p&gt;put a &lt;code&gt;#hide&lt;/code&gt; flag at the top of any cell you want to completely hide in the docs&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;p&gt;put a &lt;code&gt;#collapse&lt;/code&gt; flag at the top of any cell if you want to hide that cell by default, but stil have it be visible to the reader:&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-&lt;details class=&quot;description&quot;&gt;
-      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
-        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
-
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pd&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;altair&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;alt&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-    &lt;/details&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;p&gt;put a &lt;code&gt;#collapse_show&lt;/code&gt; flag at the top of any cell if you want to &lt;strong&gt;show&lt;/strong&gt; that cell by default, but give the reader the option to hide it:&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-&lt;details class=&quot;description&quot; open=&quot;&quot;&gt;
-      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
-        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
-
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse_show&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;cars&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/cars.json&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/movies.json&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;sp500&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/sp500.csv&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;stocks&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/stocks.csv&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;flights&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;https://vega.github.io/vega-datasets/data/flights-5k.json&amp;#39;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-    &lt;/details&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Interactive-Charts-With-Altair&quot;&gt;Interactive Charts With Altair&lt;a class=&quot;anchor-link&quot; href=&quot;#Interactive-Charts-With-Altair&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Charts made with Altair remain interactive.  Example charts taken from &lt;a href=&quot;https://github.com/uwdata/visualization-curriculum&quot;&gt;this repo&lt;/a&gt;, specifically &lt;a href=&quot;https://github.com/uwdata/visualization-curriculum/blob/master/altair_interaction.ipynb&quot;&gt;this notebook&lt;/a&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Example-1:-DropDown&quot;&gt;Example 1: DropDown&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-1:-DropDown&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-&lt;div class=&quot;input&quot;&gt;
-
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# single-value selection over [Major_Genre, MPAA_Rating] pairs&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# use specific hard-wired values as the initial selected values&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;selection&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selection_single&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Select&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Major_Genre&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;MPAA_Rating&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Major_Genre&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Drama&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;MPAA_Rating&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;R&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Major_Genre&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;binding_select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;MPAA_Rating&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;binding_radio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpaa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  
-&lt;span class=&quot;c1&quot;&gt;# scatter plot, modify opacity based on selection&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Chart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_circle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;selection&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Rotten_Tomatoes_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;IMDB_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;tooltip&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Title:N&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;opacity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;condition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.75&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.05&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;output_wrapper&quot;&gt;
-&lt;div class=&quot;output&quot;&gt;
-
-&lt;div class=&quot;output_area&quot;&gt;
-
-
-&lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
-
-&lt;div id=&quot;altair-viz-1&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-  (function(spec, embedOpt){
-    const outputDiv = document.getElementById(&quot;altair-viz-1&quot;);
-    const paths = {
-      &quot;vega&quot;: &quot;https://cdn.jsdelivr.net/npm//vega@5?noext&quot;,
-      &quot;vega-lib&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lib?noext&quot;,
-      &quot;vega-lite&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lite@4.0.0?noext&quot;,
-      &quot;vega-embed&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-embed@6?noext&quot;,
-    };
-
-    function loadScript(lib) {
-      return new Promise(function(resolve, reject) {
-        var s = document.createElement('script');
-        s.src = paths[lib];
-        s.async = true;
-        s.onload = () =&gt; resolve(paths[lib]);
-        s.onerror = () =&gt; reject(`Error loading script: ${paths[lib]}`);
-        document.getElementsByTagName(&quot;head&quot;)[0].appendChild(s);
-      });
-    }
-
-    function showError(err) {
-      outputDiv.innerHTML = `&lt;div class=&quot;error&quot; style=&quot;color:red;&quot;&gt;${err}&lt;/div&gt;`;
-      throw err;
-    }
-
-    function displayChart(vegaEmbed) {
-      vegaEmbed(outputDiv, spec, embedOpt)
-        .catch(err =&gt; showError(`Javascript Error: ${err.message}&lt;br&gt;This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
-    }
-
-    if(typeof define === &quot;function&quot; &amp;&amp; define.amd) {
-      requirejs.config({paths});
-      require([&quot;vega-embed&quot;], displayChart, err =&gt; showError(`Error loading script: ${err.message}`));
-    } else if (typeof vegaEmbed === &quot;function&quot;) {
-      displayChart(vegaEmbed);
-    } else {
-      loadScript(&quot;vega&quot;)
-        .then(() =&gt; loadScript(&quot;vega-lite&quot;))
-        .then(() =&gt; loadScript(&quot;vega-embed&quot;))
-        .catch(showError)
-        .then(() =&gt; displayChart(vegaEmbed));
-    }
-  })({&quot;config&quot;: {&quot;view&quot;: {&quot;continuousWidth&quot;: 400, &quot;continuousHeight&quot;: 300}}, &quot;data&quot;: {&quot;url&quot;: &quot;https://vega.github.io/vega-datasets/data/movies.json&quot;}, &quot;mark&quot;: &quot;circle&quot;, &quot;encoding&quot;: {&quot;opacity&quot;: {&quot;condition&quot;: {&quot;value&quot;: 0.75, &quot;selection&quot;: &quot;Select&quot;}, &quot;value&quot;: 0.05}, &quot;tooltip&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;Title&quot;}, &quot;x&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;Rotten_Tomatoes_Rating&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;IMDB_Rating&quot;}}, &quot;selection&quot;: {&quot;Select&quot;: {&quot;type&quot;: &quot;single&quot;, &quot;fields&quot;: [&quot;Major_Genre&quot;, &quot;MPAA_Rating&quot;], &quot;init&quot;: {&quot;Major_Genre&quot;: &quot;Drama&quot;, &quot;MPAA_Rating&quot;: &quot;R&quot;}, &quot;bind&quot;: {&quot;Major_Genre&quot;: {&quot;input&quot;: &quot;select&quot;, &quot;options&quot;: [&quot;Action&quot;, &quot;Adventure&quot;, &quot;Black Comedy&quot;, &quot;Comedy&quot;, &quot;Concert/Performance&quot;, &quot;Documentary&quot;, &quot;Drama&quot;, &quot;Horror&quot;, &quot;Musical&quot;, &quot;Romantic Comedy&quot;, &quot;Thriller/Suspense&quot;, &quot;Western&quot;]}, &quot;MPAA_Rating&quot;: {&quot;input&quot;: &quot;radio&quot;, &quot;options&quot;: [&quot;G&quot;, &quot;PG&quot;, &quot;PG-13&quot;, &quot;R&quot;, &quot;NC-17&quot;, &quot;Not Rated&quot;]}}}}, &quot;$schema&quot;: &quot;https://vega.github.io/schema/vega-lite/v4.0.0.json&quot;}, {&quot;mode&quot;: &quot;vega-lite&quot;});
-&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Example-2:-Tooltips&quot;&gt;Example 2: Tooltips&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-2:-Tooltips&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-&lt;div class=&quot;input&quot;&gt;
-
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Chart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_circle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selection_interval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;scales&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encodings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;x&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Rotten_Tomatoes_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;IMDB_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Axis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minExtent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# use min extent to stabilize axis title placement&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;tooltip&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Title:N&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Release_Date:N&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;IMDB_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Rotten_Tomatoes_Rating:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;output_wrapper&quot;&gt;
-&lt;div class=&quot;output&quot;&gt;
-
-&lt;div class=&quot;output_area&quot;&gt;
-
-
-&lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
-
-&lt;div id=&quot;altair-viz-3&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-  (function(spec, embedOpt){
-    const outputDiv = document.getElementById(&quot;altair-viz-3&quot;);
-    const paths = {
-      &quot;vega&quot;: &quot;https://cdn.jsdelivr.net/npm//vega@5?noext&quot;,
-      &quot;vega-lib&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lib?noext&quot;,
-      &quot;vega-lite&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lite@4.0.0?noext&quot;,
-      &quot;vega-embed&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-embed@6?noext&quot;,
-    };
-
-    function loadScript(lib) {
-      return new Promise(function(resolve, reject) {
-        var s = document.createElement('script');
-        s.src = paths[lib];
-        s.async = true;
-        s.onload = () =&gt; resolve(paths[lib]);
-        s.onerror = () =&gt; reject(`Error loading script: ${paths[lib]}`);
-        document.getElementsByTagName(&quot;head&quot;)[0].appendChild(s);
-      });
-    }
-
-    function showError(err) {
-      outputDiv.innerHTML = `&lt;div class=&quot;error&quot; style=&quot;color:red;&quot;&gt;${err}&lt;/div&gt;`;
-      throw err;
-    }
-
-    function displayChart(vegaEmbed) {
-      vegaEmbed(outputDiv, spec, embedOpt)
-        .catch(err =&gt; showError(`Javascript Error: ${err.message}&lt;br&gt;This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
-    }
-
-    if(typeof define === &quot;function&quot; &amp;&amp; define.amd) {
-      requirejs.config({paths});
-      require([&quot;vega-embed&quot;], displayChart, err =&gt; showError(`Error loading script: ${err.message}`));
-    } else if (typeof vegaEmbed === &quot;function&quot;) {
-      displayChart(vegaEmbed);
-    } else {
-      loadScript(&quot;vega&quot;)
-        .then(() =&gt; loadScript(&quot;vega-lite&quot;))
-        .then(() =&gt; loadScript(&quot;vega-embed&quot;))
-        .catch(showError)
-        .then(() =&gt; displayChart(vegaEmbed));
-    }
-  })({&quot;config&quot;: {&quot;view&quot;: {&quot;continuousWidth&quot;: 400, &quot;continuousHeight&quot;: 300}}, &quot;data&quot;: {&quot;url&quot;: &quot;https://vega.github.io/vega-datasets/data/movies.json&quot;}, &quot;mark&quot;: &quot;circle&quot;, &quot;encoding&quot;: {&quot;tooltip&quot;: [{&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;Title&quot;}, {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;Release_Date&quot;}, {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;IMDB_Rating&quot;}, {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;Rotten_Tomatoes_Rating&quot;}], &quot;x&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;Rotten_Tomatoes_Rating&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;axis&quot;: {&quot;minExtent&quot;: 30}, &quot;field&quot;: &quot;IMDB_Rating&quot;}}, &quot;height&quot;: 400, &quot;selection&quot;: {&quot;selector002&quot;: {&quot;type&quot;: &quot;interval&quot;, &quot;bind&quot;: &quot;scales&quot;, &quot;encodings&quot;: [&quot;x&quot;]}}, &quot;width&quot;: 600, &quot;$schema&quot;: &quot;https://vega.github.io/schema/vega-lite/v4.0.0.json&quot;}, {&quot;mode&quot;: &quot;vega-lite&quot;});
-&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Example-3:-More-Tooltips&quot;&gt;Example 3: More Tooltips&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-3:-More-Tooltips&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-&lt;div class=&quot;input&quot;&gt;
-
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# select a point for which to provide details-on-demand&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selection_single&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;encodings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;x&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# limit selection to x-axis value&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;mouseover&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# select on mouseover events&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;nearest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# select data point nearest the cursor&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;none&amp;#39;&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# empty selection includes no data points&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# define our base line chart of stock prices&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Chart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;date:T&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;price:Q&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Scale&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;log&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;symbol:N&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;layer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# base line chart&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# add a rule mark to serve as a guide line&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Chart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_rule&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;#aaa&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;date:T&amp;#39;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transform_filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# add circle marks for selected time points, hide unselected points&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_circle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;opacity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;condition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;# add white stroked text to provide a legible background for labels&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;left&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;white&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strokeWidth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;price:Q&amp;#39;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transform_filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;# add text labels for stock prices&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;left&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;price:Q&amp;#39;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transform_filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    
-    &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stocks&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;700&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;output_wrapper&quot;&gt;
-&lt;div class=&quot;output&quot;&gt;
-
-&lt;div class=&quot;output_area&quot;&gt;
-
-
-&lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
-
-&lt;div id=&quot;altair-viz-4&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-  (function(spec, embedOpt){
-    const outputDiv = document.getElementById(&quot;altair-viz-4&quot;);
-    const paths = {
-      &quot;vega&quot;: &quot;https://cdn.jsdelivr.net/npm//vega@5?noext&quot;,
-      &quot;vega-lib&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lib?noext&quot;,
-      &quot;vega-lite&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-lite@4.0.0?noext&quot;,
-      &quot;vega-embed&quot;: &quot;https://cdn.jsdelivr.net/npm//vega-embed@6?noext&quot;,
-    };
-
-    function loadScript(lib) {
-      return new Promise(function(resolve, reject) {
-        var s = document.createElement('script');
-        s.src = paths[lib];
-        s.async = true;
-        s.onload = () =&gt; resolve(paths[lib]);
-        s.onerror = () =&gt; reject(`Error loading script: ${paths[lib]}`);
-        document.getElementsByTagName(&quot;head&quot;)[0].appendChild(s);
-      });
-    }
-
-    function showError(err) {
-      outputDiv.innerHTML = `&lt;div class=&quot;error&quot; style=&quot;color:red;&quot;&gt;${err}&lt;/div&gt;`;
-      throw err;
-    }
-
-    function displayChart(vegaEmbed) {
-      vegaEmbed(outputDiv, spec, embedOpt)
-        .catch(err =&gt; showError(`Javascript Error: ${err.message}&lt;br&gt;This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
-    }
-
-    if(typeof define === &quot;function&quot; &amp;&amp; define.amd) {
-      requirejs.config({paths});
-      require([&quot;vega-embed&quot;], displayChart, err =&gt; showError(`Error loading script: ${err.message}`));
-    } else if (typeof vegaEmbed === &quot;function&quot;) {
-      displayChart(vegaEmbed);
-    } else {
-      loadScript(&quot;vega&quot;)
-        .then(() =&gt; loadScript(&quot;vega-lite&quot;))
-        .then(() =&gt; loadScript(&quot;vega-embed&quot;))
-        .catch(showError)
-        .then(() =&gt; displayChart(vegaEmbed));
-    }
-  })({&quot;config&quot;: {&quot;view&quot;: {&quot;continuousWidth&quot;: 400, &quot;continuousHeight&quot;: 300}}, &quot;layer&quot;: [{&quot;mark&quot;: &quot;line&quot;, &quot;encoding&quot;: {&quot;color&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;symbol&quot;}, &quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;, &quot;scale&quot;: {&quot;type&quot;: &quot;log&quot;}}}}, {&quot;mark&quot;: {&quot;type&quot;: &quot;rule&quot;, &quot;color&quot;: &quot;#aaa&quot;}, &quot;encoding&quot;: {&quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}}, &quot;transform&quot;: [{&quot;filter&quot;: {&quot;selection&quot;: &quot;selector003&quot;}}]}, {&quot;mark&quot;: &quot;circle&quot;, &quot;encoding&quot;: {&quot;color&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;symbol&quot;}, &quot;opacity&quot;: {&quot;condition&quot;: {&quot;value&quot;: 1, &quot;selection&quot;: &quot;selector003&quot;}, &quot;value&quot;: 0}, &quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;, &quot;scale&quot;: {&quot;type&quot;: &quot;log&quot;}}}, &quot;selection&quot;: {&quot;selector003&quot;: {&quot;type&quot;: &quot;single&quot;, &quot;encodings&quot;: [&quot;x&quot;], &quot;on&quot;: &quot;mouseover&quot;, &quot;nearest&quot;: true, &quot;empty&quot;: &quot;none&quot;}}}, {&quot;mark&quot;: {&quot;type&quot;: &quot;text&quot;, &quot;align&quot;: &quot;left&quot;, &quot;dx&quot;: 5, &quot;dy&quot;: -5, &quot;stroke&quot;: &quot;white&quot;, &quot;strokeWidth&quot;: 2}, &quot;encoding&quot;: {&quot;color&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;symbol&quot;}, &quot;text&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;}, &quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;, &quot;scale&quot;: {&quot;type&quot;: &quot;log&quot;}}}, &quot;transform&quot;: [{&quot;filter&quot;: {&quot;selection&quot;: &quot;selector003&quot;}}]}, {&quot;mark&quot;: {&quot;type&quot;: &quot;text&quot;, &quot;align&quot;: &quot;left&quot;, &quot;dx&quot;: 5, &quot;dy&quot;: -5}, &quot;encoding&quot;: {&quot;color&quot;: {&quot;type&quot;: &quot;nominal&quot;, &quot;field&quot;: &quot;symbol&quot;}, &quot;text&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;}, &quot;x&quot;: {&quot;type&quot;: &quot;temporal&quot;, &quot;field&quot;: &quot;date&quot;}, &quot;y&quot;: {&quot;type&quot;: &quot;quantitative&quot;, &quot;field&quot;: &quot;price&quot;, &quot;scale&quot;: {&quot;type&quot;: &quot;log&quot;}}}, &quot;transform&quot;: [{&quot;filter&quot;: {&quot;selection&quot;: &quot;selector003&quot;}}]}], &quot;data&quot;: {&quot;url&quot;: &quot;https://vega.github.io/vega-datasets/data/stocks.csv&quot;}, &quot;height&quot;: 400, &quot;width&quot;: 700, &quot;$schema&quot;: &quot;https://vega.github.io/schema/vega-lite/v4.0.0.json&quot;}, {&quot;mode&quot;: &quot;vega-lite&quot;});
-&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Other-Elements&quot;&gt;Other Elements&lt;a class=&quot;anchor-link&quot; href=&quot;#Other-Elements&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Tweetcards&quot;&gt;Tweetcards&lt;a class=&quot;anchor-link&quot; href=&quot;#Tweetcards&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; twitter: https://twitter.com/jakevdp/status/1204765621767901185?s=20&lt;/code&gt; will render this:
-
-&lt;center&gt;
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Altair 4.0 is released! &lt;a href=&quot;https://t.co/PCyrIOTcvv&quot;&gt;https://t.co/PCyrIOTcvv&lt;/a&gt;&lt;br /&gt;Try it with:&lt;br /&gt;&lt;br /&gt;  pip install -U altair&lt;br /&gt;&lt;br /&gt;The full list of changes is at &lt;a href=&quot;https://t.co/roXmzcsT58&quot;&gt;https://t.co/roXmzcsT58&lt;/a&gt; ...read on for some highlights. &lt;a href=&quot;https://t.co/vWJ0ZveKbZ&quot;&gt;pic.twitter.com/vWJ0ZveKbZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jake VanderPlas (@jakevdp) &lt;a href=&quot;https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw&quot;&gt;December 11, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Youtube-Videos&quot;&gt;Youtube Videos&lt;a class=&quot;anchor-link&quot; href=&quot;#Youtube-Videos&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; youtube: https://youtu.be/XfoYk_Z5AkI&lt;/code&gt; will render this:
-
-&lt;center&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XfoYk_Z5AkI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Boxes-/-Callouts&quot;&gt;Boxes / Callouts&lt;a class=&quot;anchor-link&quot; href=&quot;#Boxes-/-Callouts&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; Warning: There will be no second warning!&lt;/code&gt; will render this:
-&lt;div class=&quot;flash flash-error&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot; /&gt;&lt;/svg&gt;
-    &lt;strong&gt;Warning: &lt;/strong&gt;There will be no second warning!
-&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;Typing &lt;code&gt;&amp;gt; Important: Pay attention! It's important.&lt;/code&gt; will render this:
-&lt;div class=&quot;flash flash-warn&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-zap&quot; viewBox=&quot;0 0 10 16&quot; version=&quot;1.1&quot; width=&quot;10&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M10 7H6l3-7-9 9h4l-3 7 9-9z&quot; /&gt;&lt;/svg&gt;
-    &lt;strong&gt;Important: &lt;/strong&gt;Pay attention! It&amp;#8217;s important.
-&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;Typing &lt;code&gt;&amp;gt; Tip: This is my tip.&lt;/code&gt; will render this:
-&lt;div class=&quot;flash flash-success&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-checklist&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 000 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z&quot; /&gt;&lt;/svg&gt;
-    &lt;strong&gt;Tip: &lt;/strong&gt;This is my tip.
-&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;Typing &lt;code&gt;&amp;gt; Note: Take note of this.&lt;/code&gt; will render this:
-&lt;div class=&quot;flash&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-info&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z&quot; /&gt;&lt;/svg&gt;
-    &lt;strong&gt;Note: &lt;/strong&gt;Take note of this.
-&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;Typing &lt;code&gt;&amp;gt; Note: A doc link to [an example website: fast.ai](https://www.fast.ai/) should also work fine.&lt;/code&gt; will render in the docs:
-&lt;div class=&quot;flash&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z&quot; /&gt;&lt;/svg&gt;
-    &lt;strong&gt;Note: &lt;/strong&gt;A doc link to &lt;a href=&quot;https://www.fast.ai/&quot;&gt;an example website: fast.ai&lt;/a&gt; should also work fine.
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">28 Jupyter Notebook Tips, Tricks, and Shortcuts</title><link href="https://op07n.github.io/fastpages/2020/02/21/Jupyter-Notebook-Tips,-Tricks,-and-Shortcuts.html" rel="alternate" type="text/html" title="28 Jupyter Notebook Tips, Tricks, and Shortcuts" /><published>2020-02-21T00:00:00-06:00</published><updated>2020-02-21T00:00:00-06:00</updated><id>https://op07n.github.io/fastpages/2020/02/21/Jupyter%20Notebook%20Tips,%20Tricks,%20and%20Shortcuts</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/02/21/Jupyter-Notebook-Tips,-Tricks,-and-Shortcuts.html">&lt;p&gt;Borrowed from &lt;a href=&quot;&quot;&gt;https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/&lt;/a&gt;&lt;/p&gt;
 
