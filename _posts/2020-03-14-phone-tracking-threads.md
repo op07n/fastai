@@ -1,6 +1,8 @@
 # Phone Tracking Threads.
 
-Borrowed from https://www.youtube.com/watch?v=k87lmT84vIo
+Borrowed from:
+
+[![Alt text](https://img.youtube.com/vi/k87lmT84vIo/0.jpg)](https://www.youtube.com/watch?v=k87lmT84vIo)
 
 1. TOC
 {:toc}
