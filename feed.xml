@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://op07n.github.io/fastpages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://op07n.github.io/fastpages/" rel="alternate" type="text/html" /><updated>2020-03-15T03:33:59-05:00</updated><id>https://op07n.github.io/fastpages/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Phone Tracking Threads.</title><link href="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html" rel="alternate" type="text/html" title="Phone Tracking Threads." /><published>2020-03-14T00:00:00-05:00</published><updated>2020-03-14T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html">&lt;p&gt;Borrowed from https://www.youtube.com/watch?v=k87lmT84vIo&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://op07n.github.io/fastpages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://op07n.github.io/fastpages/" rel="alternate" type="text/html" /><updated>2020-03-15T03:39:02-05:00</updated><id>https://op07n.github.io/fastpages/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Syncing a github fork.</title><link href="https://op07n.github.io/fastpages/2020/03/15/syncing-a-github-fork.html" rel="alternate" type="text/html" title="Syncing a github fork." /><published>2020-03-15T00:00:00-05:00</published><updated>2020-03-15T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/15/syncing-a-github-fork</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/15/syncing-a-github-fork.html">&lt;p&gt;Borrowed of https://github.com/BlockSigner/cove&lt;/p&gt;
+
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#configure-a-remote-for-a-fork&quot; id=&quot;markdown-toc-configure-a-remote-for-a-fork&quot;&gt;Configure a remote for a fork&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#syncing-the-fork&quot; id=&quot;markdown-toc-syncing-the-fork&quot;&gt;Syncing the fork&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;configure-a-remote-for-a-fork&quot;&gt;Configure a remote for a fork&lt;/h3&gt;
+&lt;p&gt;https://help.github.com/en/articles/configuring-a-remote-for-a-fork&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;open the Terminal&lt;/li&gt;
+  &lt;li&gt;list the remote for your fork
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;specify a new remote &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;verify the new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;syncing-the-fork&quot;&gt;Syncing the fork&lt;/h3&gt;
+&lt;p&gt;from https://help.github.com/en/articles/syncing-a-fork&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;open the Terminal&lt;/li&gt;
+  &lt;li&gt;change to your local project&lt;/li&gt;
+  &lt;li&gt;fetch the branches from upstream
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git fetch upstream
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;check out your fork’s local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; branch
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git checkout master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;merge changes from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;usptream/master&lt;/code&gt; into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git merge upstream/master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;op07n/fastpages&quot; issue-term=&quot;pathname&quot; theme=&quot;github-light&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html">Borrowed of https://github.com/BlockSigner/cove</summary></entry><entry><title type="html">Phone Tracking Threads.</title><link href="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html" rel="alternate" type="text/html" title="Phone Tracking Threads." /><published>2020-03-14T00:00:00-05:00</published><updated>2020-03-14T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html">&lt;p&gt;Borrowed from https://www.youtube.com/watch?v=k87lmT84vIo&lt;/p&gt;
 
 &lt;ol id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#number-one-threat-wi-fi-scanning&quot; id=&quot;markdown-toc-number-one-threat-wi-fi-scanning&quot;&gt;Number one threat: Wi-Fi scanning.&lt;/a&gt;&lt;/li&gt;
