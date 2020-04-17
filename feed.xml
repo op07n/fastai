@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://op07n.github.io/fastpages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://op07n.github.io/fastpages/" rel="alternate" type="text/html" /><updated>2020-04-17T09:51:27-05:00</updated><id>https://op07n.github.io/fastpages/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Title</title><link href="https://op07n.github.io/fastpages/2020/04/16/Simple_Plot.html" rel="alternate" type="text/html" title="Title" /><published>2020-04-16T00:00:00-05:00</published><updated>2020-04-16T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/04/16/Simple_Plot</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/04/16/Simple_Plot.html">&lt;!--
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://op07n.github.io/fastpages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://op07n.github.io/fastpages/" rel="alternate" type="text/html" /><updated>2020-04-17T09:52:08-05:00</updated><id>https://op07n.github.io/fastpages/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Is Protonmail Safe for Security and Privacy?</title><link href="https://op07n.github.io/fastpages/2020/04/17/is-protonmail-safe-for-security-and-privacy.html" rel="alternate" type="text/html" title="Is Protonmail Safe for Security and Privacy?" /><published>2020-04-17T00:00:00-05:00</published><updated>2020-04-17T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/04/17/is-protonmail-safe-for-security-and-privacy</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/04/17/is-protonmail-safe-for-security-and-privacy.html">&lt;p&gt;Borrowed from:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8Ppl62Bl9RE&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/8Ppl62Bl9RE/0.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The question today is:  should you use &lt;strong&gt;protonmail&lt;/strong&gt;?. On my channel I don’t give you obvious answers.&lt;/p&gt;
+
+&lt;p&gt;Is it really the most secure and private email you can use?. Likely many of my subscribers use &lt;strong&gt;protonmail&lt;/strong&gt; but we will study this clearly so you understand the risks and benefits of &lt;strong&gt;protonmail&lt;/strong&gt; and compared to emails in general.  I have many videos and email and these are largely ignored because they’re not cool topics. It’s all tech. But this lack of interest translates to misunderstanding how email works which can lead to uninformed choices and often the biggest dangers to privacy. Let’s dig in. Deeply.&lt;/p&gt;
+
+&lt;p&gt;I have a particularly applicable background we’re talking about &lt;strong&gt;protonmail&lt;/strong&gt; and email in general. That’s because many years back I actually wrote an email client and server similar to &lt;strong&gt;protonmail&lt;/strong&gt;. So I hope my insight is unique because it’s like someone from inside the email platform giving you secrets. First I will tell you right now that I have no &lt;strong&gt;protonmail&lt;/strong&gt; account. I also have no &lt;strong&gt;totanota&lt;/strong&gt; account or &lt;strong&gt;startmail&lt;/strong&gt; account. You might think that’s weird for the internet privacy guy. I’m sure the &lt;em&gt;hated one&lt;/em&gt; has one of those email accounts. I’m not going to judge you for having these types of email accounts. In my interview with &lt;em&gt;John McAfee&lt;/em&gt; he says that &lt;strong&gt;protonmail&lt;/strong&gt; is CIA and that these platforms offer no security or privacy. That’s his opinion by the way I have no inside information to make the CIA claim.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Edward Snowden&lt;/em&gt; by the way used &lt;strong&gt;Lavabit&lt;/strong&gt;. &lt;strong&gt;Lavabit&lt;/strong&gt; shut down in 2013 when the US government demanded access to its private keys because they were trying to access &lt;em&gt;Snowden’s&lt;/em&gt; email. It shut down instead of giving up the information. &lt;strong&gt;Silent circle&lt;/strong&gt; another comp offered encrypted email shut down after citing the impossibility of being able to maintain the confidentiality of its customers emails should it be served with government orders.&lt;/p&gt;
+
+&lt;p&gt;I shut down my email service around 2014 as well. I wasn’t served with any government orders of any sort. But in actual operation I saw holes even though I was operating the email service with encryption.&lt;/p&gt;
+
+&lt;p&gt;First before I start giving you quick answers you have to understand how email works and how you never hear the complete story about claims an email encryption. So I will attempt to make you understand.&lt;/p&gt;
+
+&lt;p&gt;The email system is quite old it existed before the internet and it flourished in the early days of the internet it was used heavily when internet access was based on dial-up modems for example. Email is made up of three &lt;em&gt;protocols&lt;/em&gt;: &lt;strong&gt;SMTP&lt;/strong&gt; and &lt;strong&gt;pop3&lt;/strong&gt; were the original protocols and then &lt;strong&gt;IMAP&lt;/strong&gt; was added later.&lt;/p&gt;
+
+&lt;p&gt;Usually when we think of these &lt;em&gt;protocols&lt;/em&gt; we also remember that when setting up our email we specify port numbers. So the original specifications have these assignments: &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt;, &lt;strong&gt;pop3&lt;/strong&gt; &lt;em&gt;port 110&lt;/em&gt;, &lt;strong&gt;IMAP&lt;/strong&gt; &lt;em&gt;port 143&lt;/em&gt;. Now let me explain what these &lt;em&gt;protocols&lt;/em&gt; do so you understand how this relates to you setting up email uses &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;Simple Mail Transfer Protocol&lt;/em&gt; receiving emails can be either &lt;strong&gt;pop3&lt;/strong&gt; or &lt;strong&gt;IMAP&lt;/strong&gt;. The difference between the two is that &lt;strong&gt;pop3&lt;/strong&gt; means that you store your own messages while when using &lt;strong&gt;IMAP&lt;/strong&gt; the server stores the messages for you. &lt;strong&gt;Webmail&lt;/strong&gt; has to use &lt;strong&gt;IMAP&lt;/strong&gt; because you’re using a browser and are not storing your own messages. If you’re using an email client on your device and you’re using either one most people use &lt;strong&gt;IMAP&lt;/strong&gt; so they can read their messages on multiple devices. So each of you devices will just sync email from the &lt;em&gt;email server&lt;/em&gt;. The actual messages are typically stored on the &lt;em&gt;email server&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The email infrastructure consists of &lt;em&gt;two parts&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;-First is the interactions you have with your own &lt;em&gt;email server&lt;/em&gt;, which is usually a specific domain or set of domains owned by the &lt;em&gt;email provider&lt;/em&gt; or company. For example if you have a &lt;strong&gt;gmail&lt;/strong&gt; account this is your interaction with &lt;strong&gt;gmail.com&lt;/strong&gt;. If you have a &lt;strong&gt;protonmail&lt;/strong&gt; account it’s your interaction with &lt;strong&gt;protonmail.com&lt;/strong&gt;. I’m going to go back to your interaction with your own &lt;em&gt;email server&lt;/em&gt; later.&lt;/p&gt;
+
+&lt;p&gt;-The second interaction is between your &lt;em&gt;email server&lt;/em&gt; and other &lt;em&gt;email servers&lt;/em&gt; these interactions are known as &lt;strong&gt;MTA&lt;/strong&gt; to &lt;strong&gt;MTA&lt;/strong&gt;.  &lt;strong&gt;MTA&lt;/strong&gt; means &lt;em&gt;message transfer agent&lt;/em&gt; . So these interactions between &lt;strong&gt;gmail.com&lt;/strong&gt; and &lt;strong&gt;yahoo.com&lt;/strong&gt; or my &lt;strong&gt;business.com&lt;/strong&gt; and &lt;strong&gt;outlook.com&lt;/strong&gt; or &lt;strong&gt;protonmail.com&lt;/strong&gt; an &lt;strong&gt;iCloud Kong&lt;/strong&gt; and so on. Meaning inter-domain email. Because &lt;strong&gt;MTA&lt;/strong&gt; to empty is limited to sending emails, that’s all it does, it uses the &lt;strong&gt;SMT&lt;/strong&gt; protocol and which is assigned to &lt;em&gt;port 25&lt;/em&gt; .&lt;/p&gt;
+
+&lt;p&gt;Now, one interesting fact about the &lt;strong&gt;SMT&lt;/strong&gt; protocol &lt;em&gt;port 25&lt;/em&gt; , a very old protocol,  is that all the traffic has to be sent in plain text it has to be &lt;em&gt;human readable&lt;/em&gt;. If you send an attachment, you have to encode it in &lt;em&gt;base64&lt;/em&gt;, which is not encryption. It is easily translated.  &lt;em&gt;Base64&lt;/em&gt; allow sending a binary data without corrupting a message since everything is translated to normal text. As someone skilled in hacking, it is quite interesting to be on the same network as an &lt;em&gt;email server&lt;/em&gt; and then listening to the traffic on &lt;strong&gt;smtp&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt; . Again it is unencrypted so all you have to do is run &lt;strong&gt;Wireshark&lt;/strong&gt; and you can see the plain text traffic coming out of an &lt;em&gt;email server&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I want to make this clear: &lt;strong&gt;MTA&lt;/strong&gt; to &lt;strong&gt;MTA&lt;/strong&gt; traffic on &lt;em&gt;port 25&lt;/em&gt; has to be unencrypted, and in plain text, or the &lt;em&gt;protocol&lt;/em&gt; won’t work.  Now if you haven’t looked at the format of an email you may also not know that there’s a little trail on there on the top that shows how the message reach the final email server. It will often indicate the &lt;em&gt;machine name&lt;/em&gt; of your &lt;em&gt;source computer&lt;/em&gt;, the &lt;em&gt;IP address&lt;/em&gt; of the sender and the &lt;em&gt;IP address&lt;/em&gt; of the &lt;em&gt;email server&lt;/em&gt; it connected to. In addition in plain text it shows &lt;em&gt;timestamps&lt;/em&gt; and of course the name and &lt;em&gt;email addresses&lt;/em&gt; of senders and receivers, the &lt;em&gt;subject line&lt;/em&gt; of an email and all the supporting information. I just mentioned are called &lt;em&gt;email headers&lt;/em&gt;.  And I will generally call &lt;em&gt;email headers&lt;/em&gt; as &lt;em&gt;email metadata&lt;/em&gt;, and it cannot be encrypted the message body and attachments by default are also not encrypted.&lt;/p&gt;
+
+&lt;p&gt;Now you can take special precautions like &lt;em&gt;Snowden&lt;/em&gt; did to encrypt the body of the message which is tedious using &lt;strong&gt;PGP&lt;/strong&gt; .It’s tedious because the only way to do it is to exchange keys with everyone you’re dealing with. And that means you can only talk to techie types who understands how to handle &lt;strong&gt;PGP&lt;/strong&gt; . As I mentioned email server to email server or &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt; traffic is plain text so the governments of the world know this for this reason most definitely the US government and likely many governments collected data on &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt;. This means that there is a high likelihood that some email sent to you over the years, maybe the past 30 years, has been collected and stored. Also depending on where a hackers position on the network a hacker can also intercept this kind of traffic and examine your emails.&lt;/p&gt;
+
+&lt;p&gt;So if over the years you’ve sent tax information or a tax return to your accountant, or medical data to your doctor, then be assured that someone else now knows. This, in fact this, is well known in a medical field which was my prior career that &lt;em&gt;HIPAA&lt;/em&gt; regulations in the U.S. banned the use of emails for sending medical records. And this is in effect to this day the &lt;strong&gt;IRS&lt;/strong&gt; also does not send messages via email at. All because they must know this. On the other hand, in a strange turn of events, the &lt;em&gt;US State Department&lt;/em&gt; apparently uses emails, in a some point someone had private &lt;em&gt;email servers&lt;/em&gt; which guaranteed that traffic flowed externally and in plain text over ducting &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt; .&lt;/p&gt;
+
+&lt;p&gt;I’ve often wondered why no one talks about this, or why my videos in this topic are suppressed. And my guess is that it is to the benefit of the intelligence community that all of you use &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt;, so that they can easily collect data even from other departments in the US government. Since most of the traffic off the &lt;em&gt;internet&lt;/em&gt; is routed through the US Internet then it should be plain to see that most email in the world is captured by the &lt;em&gt;U.S. three-letter agencies&lt;/em&gt;. There will be exceptions and I will discuss those in a moment.&lt;/p&gt;
+
+&lt;p&gt;But let me make this statement now so you get this in context. All, all, &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt; traffic including those from &lt;strong&gt;protonmail&lt;/strong&gt; 210 or &lt;strong&gt;Gmail&lt;/strong&gt;, &lt;strong&gt;Yahoo&lt;/strong&gt;, &lt;strong&gt;iCloud&lt;/strong&gt;, and the &lt;em&gt;US State Department&lt;/em&gt; and so on are all exposed. So don’t believe the lie this part of email has always been open. It doesn’t matter which &lt;em&gt;email service&lt;/em&gt; you use: a hacker a government, an &lt;strong&gt;ISP&lt;/strong&gt; can read much of your email. Now in case you think lots of people sit there and read your email give me a break. Obviously the email is stored in databases and can be searched later by identifying a specific &lt;em&gt;IP address&lt;/em&gt; email address name or keyword.&lt;/p&gt;
+
+&lt;p&gt;Now let’s go on to part 2.  I skip the interactions you have with your own &lt;em&gt;email server&lt;/em&gt; to make this cleaner what happens if you email yourself is that visible to hackers governments and so on this part is very interesting in the old days the only way to talk to your email server was using &lt;strong&gt;pop3&lt;/strong&gt; &lt;em&gt;port 110&lt;/em&gt; &lt;strong&gt;IMAP&lt;/strong&gt; &lt;em&gt;port 143&lt;/em&gt; and &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt; these are all plaintext protocols but now they’ve changed this practically all email clients now offer encryption on email traffic through the use of something called &lt;strong&gt;TLS&lt;/strong&gt; which is like &lt;strong&gt;HTTP&lt;/strong&gt; for email so now we have &lt;strong&gt;TLS&lt;/strong&gt; versions of encrypted &lt;strong&gt;pop3&lt;/strong&gt; which is &lt;em&gt;port 995&lt;/em&gt; encrypted &lt;strong&gt;IMAP&lt;/strong&gt; which is &lt;em&gt;993&lt;/em&gt; and encrypted &lt;strong&gt;SMTP&lt;/strong&gt; which is &lt;em&gt;465&lt;/em&gt; but this is limited to your communications with your email provider so today in 2020 likely emails that flow between you and your email provider will be encrypted.&lt;/p&gt;
+
+&lt;p&gt;Fortunately this blocks reading of lots of emails on local area networks and large business networks within the network in the case of the &lt;em&gt;US State Department&lt;/em&gt; emails within the &lt;em&gt;State Department&lt;/em&gt; will be secure except to the people running it emails from the &lt;em&gt;State Department&lt;/em&gt; to private &lt;em&gt;email servers&lt;/em&gt; will not be secure let’s make this clear your email provider can still read your email incoming or outgoing your email provider can read the mated data showing &lt;em&gt;IP addresses&lt;/em&gt; and names but hackers under Lion can no longer capture this data in 2020 the email traffic has been reduced so that the only exposure now is on the email server to email server traffic the &lt;strong&gt;MTA&lt;/strong&gt; to &lt;strong&gt;MTA&lt;/strong&gt; traffic. In other words inter-domain traffic when email providers say their email is encrypted and this includes &lt;strong&gt;Gmail&lt;/strong&gt;,&lt;strong&gt;protonmail&lt;/strong&gt; , &lt;strong&gt;tutanota&lt;/strong&gt; ,&lt;strong&gt;startmail&lt;/strong&gt; and others.&lt;/p&gt;
+
+&lt;p&gt;This is the part they’re talking about they don’t mention &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt; which is the sucking hole. So in a sense they’re not lying to you part of your email interactions is encrypted but not all. Now let’s go further your email provider can read your email it is clear and obvious that &lt;strong&gt;Gmail&lt;/strong&gt; reads your email. They use it to profile you for advertising. Based on the email traffic to your account you will see applicable ads flow wherever you interact on search &lt;strong&gt;YouTube&lt;/strong&gt; and web sites with ads that are based on your &lt;strong&gt;Gmail&lt;/strong&gt; activity. They’re not giving you this service for free they want something back.&lt;/p&gt;
+
+&lt;p&gt;Now what about &lt;strong&gt;protonmail&lt;/strong&gt;.  Now here’s the potential positive or &lt;strong&gt;protonmail&lt;/strong&gt;. And I’ll be frank, I consider this only a minor positive &lt;strong&gt;protonmail&lt;/strong&gt; claims end-to-end encryption when you’re talking to someone inside the &lt;strong&gt;protonmail&lt;/strong&gt; network which is &lt;strong&gt;protonmail&lt;/strong&gt; to &lt;strong&gt;protonmail&lt;/strong&gt; traffic. And that’s likely true if both &lt;em&gt;sender&lt;/em&gt; and &lt;em&gt;receiver&lt;/em&gt; are on &lt;strong&gt;protonmail&lt;/strong&gt;, then likely the message body will be encrypted. Now this is where my experience comes in. Like I said earlier, I made my own &lt;em&gt;email service&lt;/em&gt; just like &lt;strong&gt;protonmail&lt;/strong&gt;. The difference was that I encrypted over &lt;strong&gt;Gmail&lt;/strong&gt; and your existing &lt;em&gt;email provider&lt;/em&gt;. So I didn’t intend to store the emails on my server for the private messages. That way I didn’t have direct access to your messages. But &lt;strong&gt;protonmail&lt;/strong&gt; stores your email on their server. And what that reveals is a lot of &lt;em&gt;metadata&lt;/em&gt; especially for your inter domain email. It shows who you’re interacting with their &lt;em&gt;email addresses&lt;/em&gt;, time stamps, &lt;em&gt;IP addresses&lt;/em&gt;. That &lt;em&gt;metadata&lt;/em&gt; can be demanded by governments and less &lt;strong&gt;protonmail&lt;/strong&gt; is already a government plant, in which case, they have a deep database of &lt;em&gt;metadata&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gmail&lt;/strong&gt; on the other hand also reads your email. And they can read your email content, which is again scannable for keywords. The difference between the two is that &lt;strong&gt;protonmail&lt;/strong&gt; is a known haven for people with something to hide. So all that &lt;em&gt;metadata&lt;/em&gt; is a nice collection of interactions between people who would be on the shortlist for surveillance. &lt;strong&gt;Gmail&lt;/strong&gt; has probably billions of accounts, so the only way to classify you in it is by specific knowledge of your &lt;em&gt;email address&lt;/em&gt;, an &lt;em&gt;IP address&lt;/em&gt; and keyword.  &lt;strong&gt;Gmail&lt;/strong&gt; also has a policy of informing you if there’s a subpoena for your email information.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;McAfee&lt;/em&gt; , by the way, uses this as a &lt;em&gt;canary warning flag&lt;/em&gt; honest &lt;em&gt;email messages&lt;/em&gt;. And he’s smart enough to know the limits of what he can put in an &lt;em&gt;email message&lt;/em&gt;. So even &lt;strong&gt;protonmail&lt;/strong&gt; is not 100% secure in many ways you can hide in plain sight better on &lt;strong&gt;Gmail&lt;/strong&gt; . So that’s why I recommend jima for unimportant messaging only like social media accounts and unimportant .&lt;strong&gt;Gmail&lt;/strong&gt; to &lt;strong&gt;Gmail&lt;/strong&gt; traffic.&lt;/p&gt;
+
+&lt;p&gt;What is more secure than a &lt;strong&gt;protonmail&lt;/strong&gt; then and it’s not &lt;strong&gt;tutanota&lt;/strong&gt; or &lt;strong&gt;startmail&lt;/strong&gt;. Well this is the more complex question but I run my own email server this is more secure than &lt;strong&gt;Gmail&lt;/strong&gt; or &lt;strong&gt;protonmail&lt;/strong&gt; nowadays this is very difficult to do without cybersecurity expertise &lt;em&gt;email servers&lt;/em&gt; are constantly hacked and require monitoring.&lt;/p&gt;
+
+&lt;p&gt;I run a specially configured Linux server using &lt;strong&gt;postfix&lt;/strong&gt; . Now I can consult for people and how to set this up.  It’s it’s time consuming and it’s not cheap, and obviously there’s the monthly cost to run the servers. But this could be good for like a company anyone doing this will be tested on their cybersecurity skills because any mistake will show up with spammers attacking your server and your &lt;strong&gt;ISP&lt;/strong&gt; blocking your &lt;strong&gt;SMTP&lt;/strong&gt; access and you’re getting blacklisted, your entire domain blacklisted. But let me explain the benefits here. First only the one would access to the server can read the emails and two people on the same email domain will be more secure than &lt;strong&gt;protonmail&lt;/strong&gt;, because converting between two accounts on the same server will be encrypted. So if you have a domain &lt;em&gt;mysuckingmail.com&lt;/em&gt; and you give a new &lt;em&gt;mysuckingemail&lt;/em&gt; that calm account to anyone you want to talk to then all your internal conversations will be private.&lt;/p&gt;
+
+&lt;p&gt;Can you still use &lt;strong&gt;protonmail&lt;/strong&gt;? It depends on the importance of the metadata. Since a third party now has the metadata, a relationship map and contact lists can generate connections. It is worrisome. If &lt;em&gt;Snowden&lt;/em&gt; use &lt;strong&gt;protonmail&lt;/strong&gt;, it would be a quick check to see all the email addresses he communicated with in their IP addresses and all the timestamps, in size of messages. So if I’m gonna use &lt;strong&gt;protonmail&lt;/strong&gt; it’s going to be pseudo anonymous. I’m not gonna put my real name in there. It’s that important to hide, in the limited cases where you think that it doesn’t matter like an obvious connection between people for example people in the same business then using &lt;strong&gt;protonmail&lt;/strong&gt; among yourselves is probably safe with the use of a &lt;strong&gt;VPN&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now knowing all this what’s the conclusion?  In general, any emails from one domain to another domain, is tracked by governments &lt;strong&gt;ISPs&lt;/strong&gt; and advanced hackers. In general, emails within the same domain like &lt;strong&gt;Gmail&lt;/strong&gt; to &lt;strong&gt;Gmail&lt;/strong&gt;, &lt;strong&gt;protonmail&lt;/strong&gt; to &lt;strong&gt;protonmail&lt;/strong&gt;, &lt;strong&gt;iCloud&lt;/strong&gt; to &lt;strong&gt;iCloud&lt;/strong&gt; are safe from external examination. But may be read by the platform provider. In general, emails in encrypted platforms like &lt;strong&gt;protonmail&lt;/strong&gt; will be safe from email reading within the same domain but your metadata will still be there since it’s a format of the &lt;strong&gt;SMTP&lt;/strong&gt; protocol.&lt;/p&gt;
+
+&lt;p&gt;If you decide to use something like &lt;strong&gt;protonmail&lt;/strong&gt;, I wouldn’t use it for anything other than &lt;strong&gt;protonmail&lt;/strong&gt; to &lt;strong&gt;protonmail&lt;/strong&gt; communications. I would never advertise. It this way it would have limited metadata. The safest email use is a private &lt;em&gt;email server&lt;/em&gt; where your most secret emails are only within the same domain and giving limited access to the server itself to others. Given this, I conclude that email is so unsafe that I use it sparingly. I use it mostly read I would rely on other messaging systems like signal and my own &lt;strong&gt;Brax.me&lt;/strong&gt; platform instead of email.&lt;/p&gt;
+
+&lt;p&gt;The reason I dropped email services on &lt;strong&gt;Brax.me&lt;/strong&gt; was that I saw so much metadata it had made the platform dangerous something that silent circle saw themselves. Again they state the impossibility of being able to maintain the confidentiality of its customers emails should it be served with government orders. That’s what they said this is the beauty of a platform by the way like &lt;strong&gt;Brax.me&lt;/strong&gt;. Mean no sucking metadata. You’re never forced to identify yourself, which is why I chose not to support emails on it ever. Use it it’s free. It’s a lot safer than email and it has end-to-end encryption and it’s open source. I’ve several videos on email, by the way. I also have a video of a live hackathon where 10,000 people watched it live and I demonstrated this &lt;strong&gt;SMTP&lt;/strong&gt; &lt;em&gt;port 25&lt;/em&gt; traffic in plaintext. Make sure to watch those videos. I hope you got a good explanation. And subscribe to this channel. Also please follow me on the other video platform &lt;strong&gt;library&lt;/strong&gt; Rob Braxton tech. The link is in the description. Thank you for watching.&lt;/p&gt;
+
+&lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;op07n/fastpages&quot; issue-term=&quot;pathname&quot; theme=&quot;github-light&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html">Borrowed from:</summary></entry><entry><title type="html">Title</title><link href="https://op07n.github.io/fastpages/2020/04/16/Simple_Plot.html" rel="alternate" type="text/html" title="Title" /><published>2020-04-16T00:00:00-05:00</published><updated>2020-04-16T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/04/16/Simple_Plot</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/04/16/Simple_Plot.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -33047,54 +33110,7 @@ pkyZMmXKlClTpkyZMmXKlCnny/8HM5ZB6ij5Np8AAAAASUVORK5CYII=
 &lt;p&gt;I made this app because I realized that the major major flaws in all these platforms can destroy your privacy. Even though they claim to have encryption. I hope I’ve given you food for thought and subscribe to my channel for more thought-provoking topics on privacy thank you for watching.&lt;/p&gt;
 
 &lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;op07n/fastpages&quot; issue-term=&quot;pathname&quot; theme=&quot;github-light&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
-&lt;/script&gt;</content><author><name></name></author><summary type="html">Borrowed from:</summary></entry><entry><title type="html">Syncing a github fork.</title><link href="https://op07n.github.io/fastpages/2020/03/15/syncing-a-github-fork.html" rel="alternate" type="text/html" title="Syncing a github fork." /><published>2020-03-15T00:00:00-05:00</published><updated>2020-03-15T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/15/syncing-a-github-fork</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/15/syncing-a-github-fork.html">&lt;p&gt;Borrowed of https://github.com/BlockSigner/cove&lt;/p&gt;
-
-&lt;ol id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#configure-a-remote-for-a-fork&quot; id=&quot;markdown-toc-configure-a-remote-for-a-fork&quot;&gt;Configure a remote for a fork&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#syncing-the-fork&quot; id=&quot;markdown-toc-syncing-the-fork&quot;&gt;Syncing the fork&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;configure-a-remote-for-a-fork&quot;&gt;Configure a remote for a fork&lt;/h3&gt;
-&lt;p&gt;https://help.github.com/en/articles/configuring-a-remote-for-a-fork&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;open the Terminal&lt;/li&gt;
-  &lt;li&gt;list the remote for your fork
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote -v
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;specify a new remote &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;verify the new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote -v
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;syncing-the-fork&quot;&gt;Syncing the fork&lt;/h3&gt;
-&lt;p&gt;from https://help.github.com/en/articles/syncing-a-fork&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;open the Terminal&lt;/li&gt;
-  &lt;li&gt;change to your local project&lt;/li&gt;
-  &lt;li&gt;fetch the branches from upstream
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git fetch upstream
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;check out your fork’s local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; branch
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git checkout master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;merge changes from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;usptream/master&lt;/code&gt; into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git merge upstream/master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;op07n/fastpages&quot; issue-term=&quot;pathname&quot; theme=&quot;github-light&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
-&lt;/script&gt;</content><author><name></name></author><summary type="html">Borrowed of https://github.com/BlockSigner/cove</summary></entry><entry><title type="html">De-googling Android Phones.</title><link href="https://op07n.github.io/fastpages/2020/03/15/de-googling-android.html" rel="alternate" type="text/html" title="De-googling Android Phones." /><published>2020-03-15T00:00:00-05:00</published><updated>2020-03-15T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/15/de-googling-android</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/15/de-googling-android.html">&lt;p&gt;Borrowed from:&lt;/p&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html">Borrowed from:</summary></entry><entry><title type="html">De-googling Android Phones.</title><link href="https://op07n.github.io/fastpages/2020/03/15/de-googling-android.html" rel="alternate" type="text/html" title="De-googling Android Phones." /><published>2020-03-15T00:00:00-05:00</published><updated>2020-03-15T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/15/de-googling-android</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/15/de-googling-android.html">&lt;p&gt;Borrowed from:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UXLo15l2i4c&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/UXLo15l2i4c/0.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -33164,7 +33180,54 @@ to choose to install on this phone. So this is not simple. Let’s get started.&
 &lt;p&gt;I hope this helps and provide some guidance. I’ve tried to give people a range of choices for decision-making that are still privacy focus phones are still dangerous PI devices so at all times you may still need to remove that &lt;strong&gt;SIM&lt;/strong&gt; card.&lt;/p&gt;
 
 &lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;op07n/fastpages&quot; issue-term=&quot;pathname&quot; theme=&quot;github-light&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
-&lt;/script&gt;</content><author><name></name></author><summary type="html">Borrowed from:</summary></entry><entry><title type="html">Phone Tracking Threads.</title><link href="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html" rel="alternate" type="text/html" title="Phone Tracking Threads." /><published>2020-03-14T00:00:00-05:00</published><updated>2020-03-14T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html">&lt;p&gt;Borrowed from:&lt;/p&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html">Borrowed from:</summary></entry><entry><title type="html">Syncing a github fork.</title><link href="https://op07n.github.io/fastpages/2020/03/15/syncing-a-github-fork.html" rel="alternate" type="text/html" title="Syncing a github fork." /><published>2020-03-15T00:00:00-05:00</published><updated>2020-03-15T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/15/syncing-a-github-fork</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/15/syncing-a-github-fork.html">&lt;p&gt;Borrowed of https://github.com/BlockSigner/cove&lt;/p&gt;
+
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#configure-a-remote-for-a-fork&quot; id=&quot;markdown-toc-configure-a-remote-for-a-fork&quot;&gt;Configure a remote for a fork&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#syncing-the-fork&quot; id=&quot;markdown-toc-syncing-the-fork&quot;&gt;Syncing the fork&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;configure-a-remote-for-a-fork&quot;&gt;Configure a remote for a fork&lt;/h3&gt;
+&lt;p&gt;https://help.github.com/en/articles/configuring-a-remote-for-a-fork&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;open the Terminal&lt;/li&gt;
+  &lt;li&gt;list the remote for your fork
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;specify a new remote &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;verify the new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;syncing-the-fork&quot;&gt;Syncing the fork&lt;/h3&gt;
+&lt;p&gt;from https://help.github.com/en/articles/syncing-a-fork&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;open the Terminal&lt;/li&gt;
+  &lt;li&gt;change to your local project&lt;/li&gt;
+  &lt;li&gt;fetch the branches from upstream
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git fetch upstream
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;check out your fork’s local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; branch
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git checkout master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;merge changes from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;usptream/master&lt;/code&gt; into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git merge upstream/master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;op07n/fastpages&quot; issue-term=&quot;pathname&quot; theme=&quot;github-light&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html">Borrowed of https://github.com/BlockSigner/cove</summary></entry><entry><title type="html">Phone Tracking Threads.</title><link href="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html" rel="alternate" type="text/html" title="Phone Tracking Threads." /><published>2020-03-14T00:00:00-05:00</published><updated>2020-03-14T00:00:00-05:00</updated><id>https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/03/14/phone-tracking-threads.html">&lt;p&gt;Borrowed from:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=k87lmT84vIo&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/k87lmT84vIo/0.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -35895,120 +35958,4 @@ In principle, you can compile function in the dynamic library and write python w
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/&quot;&gt;Create a blog using Pelican from your Jupyter notebooks&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Borrowed from https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/</summary></entry><entry><title type="html">Example Markdown Post1</title><link href="https://op07n.github.io/fastpages/2020/01/14/test-markdown-post.html" rel="alternate" type="text/html" title="Example Markdown Post1" /><published>2020-01-14T00:00:00-06:00</published><updated>2020-01-14T00:00:00-06:00</updated><id>https://op07n.github.io/fastpages/2020/01/14/test-markdown-post</id><content type="html" xml:base="https://op07n.github.io/fastpages/2020/01/14/test-markdown-post.html">&lt;p&gt;Here’s the table of contents:&lt;/p&gt;
-
-&lt;ol id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#basic-setup&quot; id=&quot;markdown-toc-basic-setup&quot;&gt;Basic setup&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#basic-formatting&quot; id=&quot;markdown-toc-basic-formatting&quot;&gt;Basic formatting&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lists&quot; id=&quot;markdown-toc-lists&quot;&gt;Lists&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#boxes-and-stuff&quot; id=&quot;markdown-toc-boxes-and-stuff&quot;&gt;Boxes and stuff&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#images&quot; id=&quot;markdown-toc-images&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#code&quot; id=&quot;markdown-toc-code&quot;&gt;Code&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#tables&quot; id=&quot;markdown-toc-tables&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#tweetcards&quot; id=&quot;markdown-toc-tweetcards&quot;&gt;Tweetcards&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#footnotes&quot; id=&quot;markdown-toc-footnotes&quot;&gt;Footnotes&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;basic-setup&quot;&gt;Basic setup&lt;/h2&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-filename.md&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filename&lt;/code&gt; is whatever file name you choose, to remind yourself what this post is about. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.md&lt;/code&gt; is the file extension for markdown files.&lt;/p&gt;
-
-&lt;p&gt;The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “&lt;em&gt;level 1 heading&lt;/em&gt;” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;## File names&lt;/code&gt; above.&lt;/p&gt;
-
-&lt;h2 id=&quot;basic-formatting&quot;&gt;Basic formatting&lt;/h2&gt;
-
-&lt;p&gt;You can use &lt;em&gt;italics&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code font text&lt;/code&gt;, and create &lt;a href=&quot;https://www.markdownguide.org/cheat-sheet/&quot;&gt;links&lt;/a&gt;. Here’s a footnote &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Here’s a horizontal rule:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
-
-&lt;p&gt;Here’s a list:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;item 1&lt;/li&gt;
-  &lt;li&gt;item 2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And a numbered list:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;item 1&lt;/li&gt;
-  &lt;li&gt;item 2&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;boxes-and-stuff&quot;&gt;Boxes and stuff&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a quotation&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
-   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot; /&gt;&lt;/svg&gt;&lt;/span&gt;
-   &lt;span class=&quot;Toast-content&quot;&gt;You can include alert boxes&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;…and…&lt;/p&gt;
-
-&lt;div class=&quot;Toast&quot;&gt;
-   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-info&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z&quot; /&gt;&lt;/svg&gt;&lt;/span&gt;
-   &lt;span class=&quot;Toast-content&quot;&gt;You can include info boxes&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/fastpages/images/logo.png&quot; alt=&quot;&quot; title=&quot;fast.ai's logo&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;General preformatted text:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Do a thing
-do_thing()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Python code and output:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Prints '2'
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Column 1&lt;/th&gt;
-      &lt;th&gt;Column 2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;A thing&lt;/td&gt;
-      &lt;td&gt;Another thing&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;tweetcards&quot;&gt;Tweetcards&lt;/h2&gt;
-
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Altair 4.0 is released! &lt;a href=&quot;https://t.co/PCyrIOTcvv&quot;&gt;https://t.co/PCyrIOTcvv&lt;/a&gt;&lt;br /&gt;Try it with:&lt;br /&gt;&lt;br /&gt;  pip install -U altair&lt;br /&gt;&lt;br /&gt;The full list of changes is at &lt;a href=&quot;https://t.co/roXmzcsT58&quot;&gt;https://t.co/roXmzcsT58&lt;/a&gt; ...read on for some highlights. &lt;a href=&quot;https://t.co/vWJ0ZveKbZ&quot;&gt;pic.twitter.com/vWJ0ZveKbZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jake VanderPlas (@jakevdp) &lt;a href=&quot;https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw&quot;&gt;December 11, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;This is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Here’s the table of contents:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Borrowed from https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/</summary></entry></feed>
